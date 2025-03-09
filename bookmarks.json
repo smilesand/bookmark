@@ -1,0 +1,87 @@
+{
+  "娱乐": [
+    {
+      "description": "中国知名的视频弹幕网站，提供丰富的视频内容",
+      "id": "6",
+      "title": "哔哩哔哩",
+      "url": "https://www.bilibili.com/"
+    },
+    {
+      "description": "中文社区网站，提供书籍、电影等评论和推荐",
+      "id": "7",
+      "title": "豆瓣",
+      "url": "https://www.douban.com/"
+    },
+    {
+      "addedAt": "2025-03-08T16:51:45.487Z",
+      "description": "",
+      "id": "m80fz7bjemns3hpzxlr",
+      "title": "YouTube",
+      "url": "https://www.youtube.com/"
+    }
+  ],
+  "学习资源": [
+    {
+      "description": "在线学习平台，提供各类高质量课程",
+      "id": "4",
+      "title": "Coursera",
+      "url": "https://www.coursera.org/"
+    },
+    {
+      "description": "免费教育资源，涵盖多个学科的学习内容",
+      "id": "5",
+      "title": "Khan Academy",
+      "url": "https://www.khanacademy.org/"
+    }
+  ],
+  "工作相关": [
+    {
+      "description": "代码托管平台，用于存储和协作开发项目",
+      "id": "1",
+      "title": "GitHub",
+      "url": "https://github.com/"
+    },
+    {
+      "description": "程序员问答社区，解决编程问题的好地方",
+      "id": "2",
+      "title": "Stack Overflow",
+      "url": "https://stackoverflow.com/"
+    },
+    {
+      "description": "Web技术文档，提供HTML、CSS和JavaScript等详细指南",
+      "id": "3",
+      "title": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/"
+    }
+  ],
+  "工具": [
+    {
+      "description": "在线翻译工具，支持多种语言的翻译",
+      "id": "8",
+      "title": "Google翻译",
+      "url": "https://translate.google.com/"
+    },
+    {
+      "description": "多功能笔记和协作应用，可用于任务管理",
+      "id": "9",
+      "title": "Notion",
+      "url": "https://www.notion.so/"
+    },
+    {
+      "addedAt": "2025-03-09T02:16:50.701Z",
+      "description": "免费创建引人入胜的屏幕录制",
+      "id": "m8105wr1f5nctpetye",
+      "title": "Cursorful",
+      "url": "https://cursorful.com/"
+    }
+  ],
+  "游戏": [
+    {
+      "id": "m812aesei3w5khywf6",
+      "title": "itch.io",
+      "url": "https://itch.io/",
+      "description": "下载最新的独立游戏",
+      "addedAt": "2025-03-09T03:16:19.934Z"
+    }
+  ]
+}

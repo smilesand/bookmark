@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>书签管理插件</title>
+    <style>
+        :root {
+            --primary-color: #4a6fa5;
+            --secondary-color: #166088;
+            --accent-color: #03a9f4;
+            --background-color: #f8f9fa;
+            --card-color: #ffffff;
+            --text-color: #333333;
+            --text-secondary: #666666;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --border-radius: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            min-width: 320px;
+            min-height: 240px;
+            padding: 16px;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .form-group input, 
+        .form-group textarea, 
+        .form-group select {
+            width: 100%;
+            padding: 0.6rem;
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            font-size: 0.9rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.6rem 1rem;
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background-color 0.3s;
+            text-align: center;
+            width: 100%;
+        }
+
+        .btn:hover {
+            background-color: #0288d1;
+        }
+
+        .btn-secondary {
+            background-color: #e0e0e0;
+            color: var(--text-color);
+        }
+
+        .btn-secondary:hover {
+            background-color: #d0d0d0;
+        }
+
+        .tabs {
+            display: flex;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .tab {
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-bottom: 2px solid transparent;
+        }
+
+        .tab.active {
+            border-bottom: 2px solid var(--accent-color);
+            color: var(--accent-color);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .status {
+            padding: 0.8rem;
+            margin-top: 1rem;
+            border-radius: var(--border-radius);
+            font-size: 0.9rem;
+            display: none;
+        }
+
+        .status.success {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            display: block;
+        }
+
+        .status.error {
+            background-color: #ffebee;
+            color: #c62828;
+            display: block;
+        }
+
+        .status.loading {
+            background-color: #e3f2fd;
+            color: #1976d2;
+            display: block;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 3px solid rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
+            border-top-color: var(--accent-color);
+            animation: spin 1s ease-in-out infinite;
+            margin-right: 8px;
+            vertical-align: text-bottom;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 12px;
+            font-size: 0.7rem;
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>书签管理器</h1>
+        
+        <div class="tabs">
+            <div class="tab active" data-tab="add">添加书签</div>
+            <div class="tab" data-tab="settings">设置</div>
+        </div>
+        
+        <div class="tab-content active" id="add-tab">
+            <div class="form-group">
+                <label for="title">标题</label>
+                <input type="text" id="title" placeholder="网站标题">
+            </div>
+            
+            <div class="form-group">
+                <label for="description">描述</label>
+                <textarea id="description" rows="2" placeholder="简短描述网站内容"></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="category">分类</label>
+                <select id="category">
+                    <option value="">加载中...</option>
+                </select>
+            </div>
+            
+            <div class="form-group" id="new-category-group" style="display: none;">
+                <label for="new-category">新分类名称</label>
+                <input type="text" id="new-category" placeholder="输入新分类名称">
+            </div>
+            
+            <button class="btn" id="save-btn">保存书签</button>
+            
+            <div class="status" id="status"></div>
+        </div>
+        
+        <div class="tab-content" id="settings-tab">
+            <div class="form-group">
+                <label for="github-repo">GitHub 仓库 (格式: 用户名/仓库名)</label>
+                <input type="text" id="github-repo" placeholder="例如: username/bookmarks">
+            </div>
+            
+            <div class="form-group">
+                <label for="github-token">GitHub 个人访问令牌</label>
+                <input type="password" id="github-token" placeholder="输入您的GitHub个人访问令牌">
+                <small style="display:block; margin-top: 0.3rem; font-size: 0.75rem; color: var(--text-secondary);">
+                    需要有 repo 权限的令牌。<a href="https://github.com/settings/tokens" target="_blank">点击这里</a>创建。
+                </small>
+            </div>
+            
+            <div class="form-group">
+                <label for="json-path">书签JSON文件路径</label>
+                <input type="text" id="json-path" placeholder="例如: data/bookmarks.json">
+            </div>
+            
+            <button class="btn" id="save-settings-btn">保存设置</button>
+            <button class="btn btn-secondary" style="margin-top: 0.5rem;" id="test-connection-btn">测试连接</button>
+            
+            <div class="status" id="settings-status"></div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
