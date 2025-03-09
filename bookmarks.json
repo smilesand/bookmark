@@ -74,5 +74,14 @@
       "title": "Cursorful",
       "url": "https://cursorful.com/"
     }
+  ],
+  "游戏": [
+    {
+      "id": "m81634zkv29uy52r1op",
+      "title": "itch.io",
+      "url": "https://itch.io/",
+      "description": "下载最新的独立游戏",
+      "addedAt": "2025-03-09T05:02:39.104Z"
+    }
   ]
 }
