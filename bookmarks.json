@@ -75,6 +75,22 @@
       "url": "https://cursorful.com/"
     }
   ],
+  "数据": [
+    {
+      "addedAt": "2025-03-10T06:17:06.377Z",
+      "description": "steam游戏报告",
+      "id": "m82o6qmh1i2fqbhrhli",
+      "title": "SteamDB",
+      "url": "https://steamdb.info/"
+    },
+    {
+      "id": "m82og8zrs8fku9h7ix",
+      "title": "数数科技｜全球先进的游戏大数据分析服务商｜ThinkingData",
+      "url": "https://www.thinkingdata.cn/",
+      "description": "",
+      "addedAt": "2025-03-10T06:24:30.087Z"
+    }
+  ],
   "游戏": [
     {
       "addedAt": "2025-03-09T05:02:39.104Z",
@@ -82,15 +98,6 @@
       "id": "m81634zkv29uy52r1op",
       "title": "itch.io",
       "url": "https://itch.io/"
-    }
-  ],
-  "数据": [
-    {
-      "id": "m82o6qmh1i2fqbhrhli",
-      "title": "SteamDB",
-      "url": "https://steamdb.info/",
-      "description": "steam游戏报告",
-      "addedAt": "2025-03-10T06:17:06.377Z"
     }
   ]
 }
