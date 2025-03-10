@@ -84,11 +84,11 @@
       "url": "https://steamdb.info/"
     },
     {
+      "addedAt": "2025-03-10T06:24:30.087Z",
+      "description": "",
       "id": "m82og8zrs8fku9h7ix",
       "title": "数数科技｜全球先进的游戏大数据分析服务商｜ThinkingData",
-      "url": "https://www.thinkingdata.cn/",
-      "description": "",
-      "addedAt": "2025-03-10T06:24:30.087Z"
+      "url": "https://www.thinkingdata.cn/"
     }
   ],
   "游戏": [
@@ -98,6 +98,15 @@
       "id": "m81634zkv29uy52r1op",
       "title": "itch.io",
       "url": "https://itch.io/"
+    }
+  ],
+  "分析": [
+    {
+      "id": "m82ovjfolmsaogtsjfm",
+      "title": "Google 趋势",
+      "url": "https://trends.google.com/trends/",
+      "description": "",
+      "addedAt": "2025-03-10T06:36:23.460Z"
     }
   ]
 }
