@@ -100,11 +100,18 @@
       "url": "https://www.thinkingdata.cn/"
     },
     {
+      "addedAt": "2025-03-10T07:03:49.006Z",
+      "description": "游戏数据分析",
       "id": "m82put5aele2rdiuo2j",
       "title": "adxray",
-      "url": "https://adxray.dataeye.com/index/home#/Product",
-      "description": "游戏数据分析",
-      "addedAt": "2025-03-10T07:03:49.006Z"
+      "url": "https://adxray.dataeye.com/index/home#/Product"
+    },
+    {
+      "id": "m82pvz5k0ch3i3c3qla",
+      "title": "七麦数据 -专业移动产品商业分析平台-关键词优化-ASA优化-七麦科技",
+      "url": "https://www.qimai.cn/",
+      "description": "",
+      "addedAt": "2025-03-10T07:04:43.448Z"
     }
   ],
   "游戏": [
