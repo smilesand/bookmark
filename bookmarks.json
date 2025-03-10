@@ -77,11 +77,20 @@
   ],
   "游戏": [
     {
+      "addedAt": "2025-03-09T05:02:39.104Z",
+      "description": "下载最新的独立游戏",
       "id": "m81634zkv29uy52r1op",
       "title": "itch.io",
-      "url": "https://itch.io/",
-      "description": "下载最新的独立游戏",
-      "addedAt": "2025-03-09T05:02:39.104Z"
+      "url": "https://itch.io/"
+    }
+  ],
+  "数据": [
+    {
+      "id": "m82o6qmh1i2fqbhrhli",
+      "title": "SteamDB",
+      "url": "https://steamdb.info/",
+      "description": "steam游戏报告",
+      "addedAt": "2025-03-10T06:17:06.377Z"
     }
   ]
 }
