@@ -98,11 +98,18 @@
       "url": "https://cursorful.com/"
     },
     {
+      "addedAt": "2025-03-12T07:47:39.674Z",
+      "description": "网站爬虫",
       "id": "m85mawbergmwfqre31q",
       "title": "Firecrawl",
-      "url": "https://www.firecrawl.dev/",
-      "description": "网站爬虫",
-      "addedAt": "2025-03-12T07:47:39.674Z"
+      "url": "https://www.firecrawl.dev/"
+    },
+    {
+      "id": "m85mfpqxerkxehsz6sm",
+      "title": "Firecrawl MCP服务器",
+      "url": "https://github.com/mendableai/firecrawl-mcp-server/",
+      "description": "Firecrawl MCP，为 Cursor、Claude 和其他LLM客户端添加强大的网页抓取功能。",
+      "addedAt": "2025-03-12T07:51:24.441Z"
     }
   ],
   "引擎": [
