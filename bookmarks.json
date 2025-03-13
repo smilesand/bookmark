@@ -20,6 +20,13 @@
       "id": "m82qay6ll15o5flwlfk",
       "title": "Kaggle",
       "url": "https://www.kaggle.com/"
+    },
+    {
+      "id": "m87eqlhccyeyccabze",
+      "title": "WebSpy.Site",
+      "url": "https://webspy.site/",
+      "description": "专业的网站流量分析工具 | 深入洞察网站数据 | 优化营销策略",
+      "addedAt": "2025-03-13T13:51:27.552Z"
     }
   ],
   "娱乐": [
@@ -105,11 +112,11 @@
       "url": "https://www.firecrawl.dev/"
     },
     {
+      "addedAt": "2025-03-12T07:51:24.441Z",
+      "description": "Firecrawl MCP，为 Cursor、Claude 和其他LLM客户端添加强大的网页抓取功能。",
       "id": "m85mfpqxerkxehsz6sm",
       "title": "Firecrawl MCP服务器",
-      "url": "https://github.com/mendableai/firecrawl-mcp-server/",
-      "description": "Firecrawl MCP，为 Cursor、Claude 和其他LLM客户端添加强大的网页抓取功能。",
-      "addedAt": "2025-03-12T07:51:24.441Z"
+      "url": "https://github.com/mendableai/firecrawl-mcp-server/"
     }
   ],
   "引擎": [
