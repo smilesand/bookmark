@@ -43,7 +43,7 @@
       "url": "https://www.youtube.com/"
     }
   ],
-  "学习资源": [
+  "学习": [
     {
       "description": "在线学习平台，提供各类高质量课程",
       "id": "4",
@@ -57,7 +57,7 @@
       "url": "https://www.khanacademy.org/"
     }
   ],
-  "工作相关": [
+  "工作": [
     {
       "description": "代码托管平台，用于存储和协作开发项目",
       "id": "1",
