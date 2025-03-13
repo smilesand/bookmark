@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>咪豆猫书签管理器</title>
     <link href="favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         :root {
             --primary-color: #4a6fa5;
@@ -235,6 +236,28 @@
             color: #ddd;
         }
 
+        .github-star {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background-color: var(--card-color);
+            color: var(--text-color);
+            padding: 0.5rem 1rem;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s, background-color 0.3s;
+            z-index: 1000;
+        }
+
+        .github-star:hover {
+            transform: translateY(-2px);
+            background-color: #f0f0f0;
+        }
+
         @media (max-width: 768px) {
             .search-container input {
                 width: 70%;
@@ -259,6 +282,13 @@
                 bottom: 4.5rem;
                 right: 1rem;
             }
+
+            .github-star {
+                top: 0.5rem;
+                right: 0.5rem;
+                padding: 0.4rem 0.8rem;
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
@@ -268,6 +298,11 @@
         <h1>咪豆猫书签管理器</h1>
         <p>集中管理您的所有网络资源</p>
     </header>
+
+    <a href="https://github.com/smilesand/bookmark" class="github-star" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+        <span>Star</span>
+    </a>
 
     <div class="container">
         <div class="search-container">
@@ -283,7 +318,6 @@
     <div class="category-nav" id="category-nav">
         <!-- 导航按钮将通过JavaScript动态加载 -->
     </div>
-
     <script src="index.js"></script>
 </body>
 
