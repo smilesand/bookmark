@@ -128,11 +128,18 @@
       "url": "https://developer.mozilla.org/"
     },
     {
+      "addedAt": "2025-03-15T11:59:45.242Z",
+      "description": "Where work happens",
       "id": "m8a5mna2tlrsat00jd",
       "title": "Slack",
-      "url": "https://slack.com/",
-      "description": "Where work happens",
-      "addedAt": "2025-03-15T11:59:45.242Z"
+      "url": "https://slack.com/"
+    },
+    {
+      "id": "m8a6n2e4xa60zmyv7q",
+      "title": "Trello",
+      "url": "https://trello.com/",
+      "description": "随时随地捕获、整理和处理待办事项",
+      "addedAt": "2025-03-15T12:28:04.444Z"
     }
   ],
   "工具": [
