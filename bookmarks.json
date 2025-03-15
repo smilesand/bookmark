@@ -15,11 +15,18 @@
       "url": "https://mcp.so/clients"
     },
     {
+      "addedAt": "2025-03-15T10:04:27.948Z",
+      "description": "端脑云 - AIGC 应用平台",
       "id": "m8a1idv0j3r9ik31ya",
       "title": "Cephalon Cloud",
-      "url": "https://cephalon.cloud/aigc",
-      "description": "端脑云 - AIGC 应用平台",
-      "addedAt": "2025-03-15T10:04:27.948Z"
+      "url": "https://cephalon.cloud/aigc"
+    },
+    {
+      "id": "m8a1ttgjt4ub1y5u01q",
+      "title": "Smithery",
+      "url": "https://smithery.ai/",
+      "description": "Model Context Protocol Registry",
+      "addedAt": "2025-03-15T10:13:21.379Z"
     }
   ],
   "分析": [
