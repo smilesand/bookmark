@@ -22,11 +22,11 @@
       "url": "https://cephalon.cloud/aigc"
     },
     {
+      "addedAt": "2025-03-15T10:13:21.379Z",
+      "description": "Model Context Protocol Registry",
       "id": "m8a1ttgjt4ub1y5u01q",
       "title": "Smithery",
-      "url": "https://smithery.ai/",
-      "description": "Model Context Protocol Registry",
-      "addedAt": "2025-03-15T10:13:21.379Z"
+      "url": "https://smithery.ai/"
     }
   ],
   "分析": [
@@ -161,6 +161,13 @@
       "id": "m85mfpqxerkxehsz6sm",
       "title": "Firecrawl MCP服务器",
       "url": "https://github.com/mendableai/firecrawl-mcp-server/"
+    },
+    {
+      "id": "m8a4xi7r5gfkn9djdws",
+      "title": "Sentry",
+      "url": "https://sentry.io/welcome/",
+      "description": "Application Performance Monitoring & Error Tracking Software",
+      "addedAt": "2025-03-15T11:40:12.279Z"
     }
   ],
   "引擎": [
