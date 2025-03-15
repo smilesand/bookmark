@@ -36,11 +36,11 @@
       "url": "https://www.semrush.com/partner/semrushprotrial_11535?irclickid=3G7X%3AvSNAxyKWjeT601-qSsuUks1rK3IN20fT00&irgwc=1&ir_partnerid=11535&ir_adid=1578315&ir_campaignid=13053"
     },
     {
+      "addedAt": "2025-03-13T14:02:52.933Z",
+      "description": "专业网站数据分析",
       "id": "m87f5abpy8gvp9v618m",
       "title": "Similarweb",
-      "url": "https://pro.similarweb.com/#/digitalsuite/home",
-      "description": "专业网站数据分析",
-      "addedAt": "2025-03-13T14:02:52.933Z"
+      "url": "https://pro.similarweb.com/#/digitalsuite/home"
     }
   ],
   "娱乐": [
@@ -179,6 +179,15 @@
       "id": "m81634zkv29uy52r1op",
       "title": "itch.io",
       "url": "https://itch.io/"
+    }
+  ],
+  "AI": [
+    {
+      "id": "m8a1aaz28t1fm0tirx5",
+      "title": "PulseMCP",
+      "url": "https://www.pulsemcp.com/",
+      "description": "Keep up-to-date with MCP",
+      "addedAt": "2025-03-15T09:58:10.958Z"
     }
   ]
 }
