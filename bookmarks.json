@@ -126,6 +126,13 @@
       "id": "3",
       "title": "MDN Web Docs",
       "url": "https://developer.mozilla.org/"
+    },
+    {
+      "id": "m8a5mna2tlrsat00jd",
+      "title": "Slack",
+      "url": "https://slack.com/",
+      "description": "Where work happens",
+      "addedAt": "2025-03-15T11:59:45.242Z"
     }
   ],
   "工具": [
@@ -163,11 +170,11 @@
       "url": "https://github.com/mendableai/firecrawl-mcp-server/"
     },
     {
+      "addedAt": "2025-03-15T11:40:12.279Z",
+      "description": "Application Performance Monitoring & Error Tracking Software",
       "id": "m8a4xi7r5gfkn9djdws",
       "title": "Sentry",
-      "url": "https://sentry.io/welcome/",
-      "description": "Application Performance Monitoring & Error Tracking Software",
-      "addedAt": "2025-03-15T11:40:12.279Z"
+      "url": "https://sentry.io/welcome/"
     }
   ],
   "引擎": [
