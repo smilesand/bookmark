@@ -198,11 +198,18 @@
       "url": "https://dashboard.imgix.com/"
     },
     {
+      "addedAt": "2025-03-16T13:26:19.004Z",
+      "description": "The Open Source Firebase Alternative",
       "id": "m8bo5th8spvocxqjgdm",
       "title": "Supabase",
-      "url": "https://supabase.com/",
-      "description": "The Open Source Firebase Alternative",
-      "addedAt": "2025-03-16T13:26:19.004Z"
+      "url": "https://supabase.com/"
+    },
+    {
+      "id": "m8bon8c1j6w68dic07",
+      "title": "Stripe",
+      "url": "https://stripe.com/",
+      "description": "Financial Infrastructure to Grow Your Revenue",
+      "addedAt": "2025-03-16T13:39:51.409Z"
     }
   ],
   "引擎": [
