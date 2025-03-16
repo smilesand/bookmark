@@ -71,6 +71,13 @@
       "id": "m87f5abpy8gvp9v618m",
       "title": "Similarweb",
       "url": "https://pro.similarweb.com/#/digitalsuite/home"
+    },
+    {
+      "id": "m8azl7dcboclv12xcyt",
+      "title": "Brave Search",
+      "url": "https://brave.com/search/api/",
+      "description": "勇敢搜索 API | 勇敢 --- Brave Search API | Brave",
+      "addedAt": "2025-03-16T01:58:26.448Z"
     }
   ],
   "娱乐": [
@@ -135,11 +142,11 @@
       "url": "https://slack.com/"
     },
     {
+      "addedAt": "2025-03-15T12:28:04.444Z",
+      "description": "随时随地捕获、整理和处理待办事项",
       "id": "m8a6n2e4xa60zmyv7q",
       "title": "Trello",
-      "url": "https://trello.com/",
-      "description": "随时随地捕获、整理和处理待办事项",
-      "addedAt": "2025-03-15T12:28:04.444Z"
+      "url": "https://trello.com/"
     }
   ],
   "工具": [
