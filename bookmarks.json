@@ -191,11 +191,18 @@
       "url": "https://sentry.io/welcome/"
     },
     {
+      "addedAt": "2025-03-16T13:17:26.086Z",
+      "description": "媒体资源存储",
       "id": "m8bnue9yrn0x3g4mk6i",
       "title": "imgix",
-      "url": "https://dashboard.imgix.com/",
-      "description": "媒体资源存储",
-      "addedAt": "2025-03-16T13:17:26.086Z"
+      "url": "https://dashboard.imgix.com/"
+    },
+    {
+      "id": "m8bo5th8spvocxqjgdm",
+      "title": "Supabase",
+      "url": "https://supabase.com/",
+      "description": "The Open Source Firebase Alternative",
+      "addedAt": "2025-03-16T13:26:19.004Z"
     }
   ],
   "引擎": [
