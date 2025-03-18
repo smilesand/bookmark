@@ -147,6 +147,13 @@
       "id": "m8a6n2e4xa60zmyv7q",
       "title": "Trello",
       "url": "https://trello.com/"
+    },
+    {
+      "id": "m8dupxsim01cfnfr9dj",
+      "title": "Meta for Developers",
+      "url": "https://developers.facebook.com/",
+      "description": "facebook开发者平台",
+      "addedAt": "2025-03-18T02:05:27.763Z"
     }
   ],
   "工具": [
@@ -251,6 +258,15 @@
       "url": "https://www.qimai.cn/"
     }
   ],
+  "新闻": [
+    {
+      "addedAt": "2025-03-18T01:38:20.360Z",
+      "description": "黑客新闻",
+      "id": "m8dtr22wfytv391ro",
+      "title": "Hacker News",
+      "url": "https://news.ycombinator.com/news"
+    }
+  ],
   "游戏": [
     {
       "addedAt": "2025-03-09T05:02:39.104Z",
@@ -258,15 +274,6 @@
       "id": "m81634zkv29uy52r1op",
       "title": "itch.io",
       "url": "https://itch.io/"
-    }
-  ],
-  "新闻": [
-    {
-      "id": "m8dtr22wfytv391ro",
-      "title": "Hacker News",
-      "url": "https://news.ycombinator.com/news",
-      "description": "黑客新闻",
-      "addedAt": "2025-03-18T01:38:20.360Z"
     }
   ]
 }
