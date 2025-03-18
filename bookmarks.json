@@ -205,11 +205,11 @@
       "url": "https://supabase.com/"
     },
     {
+      "addedAt": "2025-03-16T13:39:51.409Z",
+      "description": "Financial Infrastructure to Grow Your Revenue",
       "id": "m8bon8c1j6w68dic07",
       "title": "Stripe",
-      "url": "https://stripe.com/",
-      "description": "Financial Infrastructure to Grow Your Revenue",
-      "addedAt": "2025-03-16T13:39:51.409Z"
+      "url": "https://stripe.com/"
     }
   ],
   "引擎": [
@@ -258,6 +258,15 @@
       "id": "m81634zkv29uy52r1op",
       "title": "itch.io",
       "url": "https://itch.io/"
+    }
+  ],
+  "新闻": [
+    {
+      "id": "m8dtr22wfytv391ro",
+      "title": "Hacker News",
+      "url": "https://news.ycombinator.com/news",
+      "description": "黑客新闻",
+      "addedAt": "2025-03-18T01:38:20.360Z"
     }
   ]
 }
