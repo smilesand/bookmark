@@ -36,11 +36,11 @@
       "url": "https://x.ai/"
     },
     {
+      "addedAt": "2025-03-20T04:01:04.882Z",
+      "description": "ComfyUI嘴形同步器",
       "id": "m8gtqbual3jbpv4g918",
       "title": "ShmuelRonen",
-      "url": "https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper",
-      "description": "ComfyUI嘴形同步器",
-      "addedAt": "2025-03-20T04:01:04.882Z"
+      "url": "https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper"
     }
   ],
   "分析": [
@@ -295,6 +295,15 @@
       "id": "m81634zkv29uy52r1op",
       "title": "itch.io",
       "url": "https://itch.io/"
+    }
+  ],
+  "金融": [
+    {
+      "id": "m8ilelqeftyj9pn6s24",
+      "title": "Wise",
+      "url": "https://wise.com/",
+      "description": "The international account | Money without borders | Wise United States",
+      "addedAt": "2025-03-21T09:43:33.254Z"
     }
   ]
 }
