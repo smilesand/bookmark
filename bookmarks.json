@@ -277,6 +277,13 @@
       "id": "m82pvz5k0ch3i3c3qla",
       "title": "七麦数据 -专业移动产品商业分析平台-关键词优化-ASA优化-七麦科技",
       "url": "https://www.qimai.cn/"
+    },
+    {
+      "id": "m8io79vk3p5slpwscst",
+      "title": "RSSHub",
+      "url": "https://docs.rsshub.app/zh/",
+      "description": "RSS订阅",
+      "addedAt": "2025-03-21T11:01:50.144Z"
     }
   ],
   "新闻": [
@@ -299,11 +306,11 @@
   ],
   "金融": [
     {
+      "addedAt": "2025-03-21T09:43:33.254Z",
+      "description": "The international account | Money without borders | Wise United States",
       "id": "m8ilelqeftyj9pn6s24",
       "title": "Wise",
-      "url": "https://wise.com/",
-      "description": "The international account | Money without borders | Wise United States",
-      "addedAt": "2025-03-21T09:43:33.254Z"
+      "url": "https://wise.com/"
     }
   ]
 }
