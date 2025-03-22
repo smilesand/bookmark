@@ -50,11 +50,11 @@
       "url": "https://www.musicmint.ai/"
     },
     {
+      "addedAt": "2025-03-22T09:05:30.983Z",
+      "description": "",
       "id": "m8jzhjdzdf4cwqu5st9",
       "title": "Gemini",
-      "url": "https://gemini.google.com/app",
-      "description": "",
-      "addedAt": "2025-03-22T09:05:30.983Z"
+      "url": "https://gemini.google.com/app"
     }
   ],
   "分析": [
@@ -273,6 +273,13 @@
       "id": "m8ite7m61br7vxs4dfy",
       "title": "launching.today",
       "url": "https://www.launching.today/"
+    },
+    {
+      "id": "m8jzpo5qo9sufdy4q8l",
+      "title": "Obsidian",
+      "url": "https://obsidian.md/",
+      "description": "锋利你的思维 --- Obsidian - Sharpen your thinking",
+      "addedAt": "2025-03-22T09:11:50.414Z"
     }
   ],
   "引擎": [
