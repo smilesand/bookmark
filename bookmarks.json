@@ -57,11 +57,11 @@
       "url": "https://gemini.google.com/app"
     },
     {
+      "addedAt": "2025-03-22T09:20:16.269Z",
+      "description": "EVAI建筑大师—室内建筑设计专用的的AI渲染平台",
       "id": "m8k00ih9170nmz771tr",
       "title": "EVAI",
-      "url": "https://www.openevai.com/",
-      "description": "EVAI建筑大师—室内建筑设计专用的的AI渲染平台",
-      "addedAt": "2025-03-22T09:20:16.269Z"
+      "url": "https://www.openevai.com/"
     }
   ],
   "分析": [
@@ -360,6 +360,15 @@
       "id": "m8ilelqeftyj9pn6s24",
       "title": "Wise",
       "url": "https://wise.com/"
+    }
+  ],
+  "资源": [
+    {
+      "id": "m8k04qbxlfqddo7f9a",
+      "title": "Dashboard - LottieFiles Platform",
+      "url": "https://app.lottiefiles.com/",
+      "description": "动画",
+      "addedAt": "2025-03-22T09:23:33.069Z"
     }
   ]
 }
