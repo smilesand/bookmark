@@ -62,6 +62,13 @@
       "id": "m8k00ih9170nmz771tr",
       "title": "EVAI",
       "url": "https://www.openevai.com/"
+    },
+    {
+      "id": "m8k2frxrsdb4qc8ahn",
+      "title": "Dify.AI",
+      "url": "https://dify.ai/",
+      "description": "The Innovation Engine for Generative AI Applications",
+      "addedAt": "2025-03-22T10:28:07.599Z"
     }
   ],
   "分析": [
@@ -289,11 +296,11 @@
       "url": "https://obsidian.md/"
     },
     {
+      "addedAt": "2025-03-22T09:27:22.798Z",
+      "description": "Create Amazing Mockups",
       "id": "m8k09nlah4c8jsjc2p",
       "title": "Shots",
-      "url": "https://shots.so/",
-      "description": "Create Amazing Mockups",
-      "addedAt": "2025-03-22T09:27:22.798Z"
+      "url": "https://shots.so/"
     }
   ],
   "引擎": [
