@@ -48,6 +48,13 @@
       "id": "m8jsx1a00p9d348c3fy",
       "title": "MusicMint-AI Song Generator",
       "url": "https://www.musicmint.ai/"
+    },
+    {
+      "id": "m8jzhjdzdf4cwqu5st9",
+      "title": "Gemini",
+      "url": "https://gemini.google.com/app",
+      "description": "",
+      "addedAt": "2025-03-22T09:05:30.983Z"
     }
   ],
   "分析": [
@@ -143,11 +150,11 @@
       "url": "https://www.khanacademy.org/"
     },
     {
+      "addedAt": "2025-03-22T07:04:53.810Z",
+      "description": "python管理器",
       "id": "m8jv6f5ekc28k4k1aw",
       "title": "uv",
-      "url": "https://docs.astral.sh/uv/",
-      "description": "python管理器",
-      "addedAt": "2025-03-22T07:04:53.810Z"
+      "url": "https://docs.astral.sh/uv/"
     }
   ],
   "工作": [
