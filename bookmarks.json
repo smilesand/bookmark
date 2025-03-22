@@ -43,11 +43,11 @@
       "url": "https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper"
     },
     {
+      "addedAt": "2025-03-22T06:01:36.696Z",
+      "description": "",
       "id": "m8jsx1a00p9d348c3fy",
       "title": "MusicMint-AI Song Generator",
-      "url": "https://www.musicmint.ai/",
-      "description": "",
-      "addedAt": "2025-03-22T06:01:36.696Z"
+      "url": "https://www.musicmint.ai/"
     }
   ],
   "分析": [
@@ -141,6 +141,13 @@
       "id": "5",
       "title": "Khan Academy",
       "url": "https://www.khanacademy.org/"
+    },
+    {
+      "id": "m8jv6f5ekc28k4k1aw",
+      "title": "uv",
+      "url": "https://docs.astral.sh/uv/",
+      "description": "python管理器",
+      "addedAt": "2025-03-22T07:04:53.810Z"
     }
   ],
   "工作": [
