@@ -64,11 +64,18 @@
       "url": "https://www.openevai.com/"
     },
     {
+      "addedAt": "2025-03-22T10:28:07.599Z",
+      "description": "The Innovation Engine for Generative AI Applications",
       "id": "m8k2frxrsdb4qc8ahn",
       "title": "Dify.AI",
-      "url": "https://dify.ai/",
-      "description": "The Innovation Engine for Generative AI Applications",
-      "addedAt": "2025-03-22T10:28:07.599Z"
+      "url": "https://dify.ai/"
+    },
+    {
+      "id": "m8k2h71s5hm3w21269h",
+      "title": "Facefusion",
+      "url": "https://www.facefusion.co/",
+      "description": "Online (No Download & Install Required)",
+      "addedAt": "2025-03-22T10:29:13.840Z"
     }
   ],
   "分析": [
