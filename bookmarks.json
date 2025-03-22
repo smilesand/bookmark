@@ -287,6 +287,13 @@
       "id": "m8jzpo5qo9sufdy4q8l",
       "title": "Obsidian",
       "url": "https://obsidian.md/"
+    },
+    {
+      "id": "m8k09nlah4c8jsjc2p",
+      "title": "Shots",
+      "url": "https://shots.so/",
+      "description": "Create Amazing Mockups",
+      "addedAt": "2025-03-22T09:27:22.798Z"
     }
   ],
   "引擎": [
@@ -353,6 +360,15 @@
       "url": "https://itch.io/"
     }
   ],
+  "资源": [
+    {
+      "addedAt": "2025-03-22T09:23:33.069Z",
+      "description": "动画",
+      "id": "m8k04qbxlfqddo7f9a",
+      "title": "Dashboard - LottieFiles Platform",
+      "url": "https://app.lottiefiles.com/"
+    }
+  ],
   "金融": [
     {
       "addedAt": "2025-03-21T09:43:33.254Z",
@@ -360,15 +376,6 @@
       "id": "m8ilelqeftyj9pn6s24",
       "title": "Wise",
       "url": "https://wise.com/"
-    }
-  ],
-  "资源": [
-    {
-      "id": "m8k04qbxlfqddo7f9a",
-      "title": "Dashboard - LottieFiles Platform",
-      "url": "https://app.lottiefiles.com/",
-      "description": "动画",
-      "addedAt": "2025-03-22T09:23:33.069Z"
     }
   ]
 }
