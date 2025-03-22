@@ -55,6 +55,13 @@
       "id": "m8jzhjdzdf4cwqu5st9",
       "title": "Gemini",
       "url": "https://gemini.google.com/app"
+    },
+    {
+      "id": "m8k00ih9170nmz771tr",
+      "title": "EVAI",
+      "url": "https://www.openevai.com/",
+      "description": "EVAI建筑大师—室内建筑设计专用的的AI渲染平台",
+      "addedAt": "2025-03-22T09:20:16.269Z"
     }
   ],
   "分析": [
@@ -275,11 +282,11 @@
       "url": "https://www.launching.today/"
     },
     {
+      "addedAt": "2025-03-22T09:11:50.414Z",
+      "description": "锋利你的思维 --- Obsidian - Sharpen your thinking",
       "id": "m8jzpo5qo9sufdy4q8l",
       "title": "Obsidian",
-      "url": "https://obsidian.md/",
-      "description": "锋利你的思维 --- Obsidian - Sharpen your thinking",
-      "addedAt": "2025-03-22T09:11:50.414Z"
+      "url": "https://obsidian.md/"
     }
   ],
   "引擎": [
