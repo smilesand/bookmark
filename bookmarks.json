@@ -71,11 +71,11 @@
       "url": "https://dify.ai/"
     },
     {
+      "addedAt": "2025-03-22T10:29:13.840Z",
+      "description": "Online (No Download & Install Required)",
       "id": "m8k2h71s5hm3w21269h",
       "title": "Facefusion",
-      "url": "https://www.facefusion.co/",
-      "description": "Online (No Download & Install Required)",
-      "addedAt": "2025-03-22T10:29:13.840Z"
+      "url": "https://www.facefusion.co/"
     }
   ],
   "分析": [
@@ -176,6 +176,13 @@
       "id": "m8jv6f5ekc28k4k1aw",
       "title": "uv",
       "url": "https://docs.astral.sh/uv/"
+    },
+    {
+      "id": "m8l738eprfma9tsvre",
+      "title": "Taro 介绍 | Taro 文档",
+      "url": "https://docs.taro.zone/docs/",
+      "description": "跨平台小程序框架",
+      "addedAt": "2025-03-23T05:26:06.673Z"
     }
   ],
   "工作": [
