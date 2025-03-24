@@ -324,6 +324,13 @@
       "id": "m83u1fyjngd0tpv49v",
       "title": "丝绸引擎",
       "url": "https://www.spiders-games.com/silk-engine/"
+    },
+    {
+      "id": "m8mufic9ar09u1ivpor",
+      "title": "Colyseus",
+      "url": "https://colyseus.io/",
+      "description": "Open-source Multiplayer Framework for Node.js",
+      "addedAt": "2025-03-24T09:07:16.761Z"
     }
   ],
   "数据": [
