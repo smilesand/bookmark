@@ -178,11 +178,11 @@
       "url": "https://docs.astral.sh/uv/"
     },
     {
+      "addedAt": "2025-03-23T05:26:06.673Z",
+      "description": "跨平台小程序框架",
       "id": "m8l738eprfma9tsvre",
       "title": "Taro 介绍 | Taro 文档",
-      "url": "https://docs.taro.zone/docs/",
-      "description": "跨平台小程序框架",
-      "addedAt": "2025-03-23T05:26:06.673Z"
+      "url": "https://docs.taro.zone/docs/"
     }
   ],
   "工作": [
@@ -324,6 +324,13 @@
       "id": "m83u1fyjngd0tpv49v",
       "title": "丝绸引擎",
       "url": "https://www.spiders-games.com/silk-engine/"
+    },
+    {
+      "id": "m8ms239zcmt8qcln3vj",
+      "title": "Phaser Editor 2D | HTML5 Game IDE",
+      "url": "https://phasereditor2d.com/",
+      "description": "",
+      "addedAt": "2025-03-24T08:00:51.479Z"
     }
   ],
   "数据": [
