@@ -340,11 +340,18 @@
       "url": "https://capacitorjs.com/"
     },
     {
+      "addedAt": "2025-03-24T09:23:38.124Z",
+      "description": "使用HTML、CSS和JS 的移动应用程序\n使用一个代码库定位多个平台",
       "id": "m8mv0jkck2eby7s3mj",
       "title": "Apache Cordova",
-      "url": "https://cordova.apache.org/",
-      "description": "使用HTML、CSS和JS 的移动应用程序\n使用一个代码库定位多个平台",
-      "addedAt": "2025-03-24T09:23:38.124Z"
+      "url": "https://cordova.apache.org/"
+    },
+    {
+      "id": "m8n512t055ha404q4hx",
+      "title": "LDtk",
+      "url": "https://ldtk.io/",
+      "description": "Dead Cells 导演的 2D 关卡编辑器 --- LDtk – 2D level editor from the director of Dead Cells",
+      "addedAt": "2025-03-24T14:03:59.220Z"
     }
   ],
   "数据": [
