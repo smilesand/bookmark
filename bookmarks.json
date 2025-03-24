@@ -333,11 +333,18 @@
       "url": "https://colyseus.io/"
     },
     {
+      "addedAt": "2025-03-24T09:19:42.401Z",
+      "description": "Cross-platform apps with web technology",
       "id": "m8muvhohawzeeswmzl",
       "title": "Capacitor",
-      "url": "https://capacitorjs.com/",
-      "description": "Cross-platform apps with web technology",
-      "addedAt": "2025-03-24T09:19:42.401Z"
+      "url": "https://capacitorjs.com/"
+    },
+    {
+      "id": "m8mv0jkck2eby7s3mj",
+      "title": "Apache Cordova",
+      "url": "https://cordova.apache.org/",
+      "description": "使用HTML、CSS和JS 的移动应用程序\n使用一个代码库定位多个平台",
+      "addedAt": "2025-03-24T09:23:38.124Z"
     }
   ],
   "数据": [
