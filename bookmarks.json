@@ -368,11 +368,18 @@
       "url": "https://www.mapeditor.org/"
     },
     {
+      "addedAt": "2025-03-25T13:08:07.239Z",
+      "description": "Create Sprite Sheets for your game!",
       "id": "m8oih32fc2k5jy6wbgh",
       "title": "TexturePacker",
-      "url": "https://www.codeandweb.com/texturepacker",
-      "description": "Create Sprite Sheets for your game!",
-      "addedAt": "2025-03-25T13:08:07.239Z"
+      "url": "https://www.codeandweb.com/texturepacker"
+    },
+    {
+      "id": "m8pmxuh7sukgdtfm6ne",
+      "title": "Hathora",
+      "url": "https://hathora.dev/",
+      "description": "Server Orchestration for Multiplayer Games，游戏服务托管。",
+      "addedAt": "2025-03-26T08:00:53.899Z"
     }
   ],
   "数据": [
