@@ -331,11 +331,11 @@
       "url": "https://openboard.ch/index.en.html"
     },
     {
+      "addedAt": "2025-03-27T06:40:47.571Z",
+      "description": "白板",
       "id": "m8qziok33inksbbl6p5",
       "title": "Excalidraw",
-      "url": "https://excalidraw.com/",
-      "description": "白板",
-      "addedAt": "2025-03-27T06:40:47.571Z"
+      "url": "https://excalidraw.com/"
     }
   ],
   "开发": [
@@ -394,6 +394,13 @@
       "id": "m8pmxuh7sukgdtfm6ne",
       "title": "Hathora",
       "url": "https://hathora.dev/"
+    },
+    {
+      "id": "m8r26l67j025od2o3de",
+      "title": "Cloud DNS",
+      "url": "https://www.cloudns.net/",
+      "description": "Cloud DNS hosting and Domain names | ClouDNS",
+      "addedAt": "2025-03-27T07:55:22.159Z"
     }
   ],
   "数据": [
