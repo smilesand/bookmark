@@ -324,11 +324,18 @@
       "url": "https://shots.so/"
     },
     {
+      "addedAt": "2025-03-27T06:39:46.369Z",
+      "description": "the best interactive whiteboard for schools and universities",
       "id": "m8qzhdc1szbhfizpfb",
       "title": "OpenBoard",
-      "url": "https://openboard.ch/index.en.html",
-      "description": "the best interactive whiteboard for schools and universities",
-      "addedAt": "2025-03-27T06:39:46.369Z"
+      "url": "https://openboard.ch/index.en.html"
+    },
+    {
+      "id": "m8qziok33inksbbl6p5",
+      "title": "Excalidraw",
+      "url": "https://excalidraw.com/",
+      "description": "白板",
+      "addedAt": "2025-03-27T06:40:47.571Z"
     }
   ],
   "开发": [
