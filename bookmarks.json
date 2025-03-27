@@ -410,11 +410,18 @@
       "url": "https://azure.microsoft.com/en-us/products/playfab/"
     },
     {
+      "addedAt": "2025-03-27T15:16:26.112Z",
+      "description": "",
       "id": "m8rhxsw02zrikbczmu9",
       "title": "Amazon GameLift Family",
-      "url": "https://aws.amazon.com/gamelift/",
-      "description": "",
-      "addedAt": "2025-03-27T15:16:26.112Z"
+      "url": "https://aws.amazon.com/gamelift/"
+    },
+    {
+      "id": "m8ri9yepnnngsi3ix6e",
+      "title": "playfab",
+      "url": "https://playfab.com/pricing/",
+      "description": "playfab价格",
+      "addedAt": "2025-03-27T15:25:53.137Z"
     }
   ],
   "数据": [
