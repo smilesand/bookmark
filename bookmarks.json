@@ -396,11 +396,18 @@
       "url": "https://hathora.dev/"
     },
     {
+      "addedAt": "2025-03-27T07:55:22.159Z",
+      "description": "Cloud DNS hosting and Domain names | ClouDNS",
       "id": "m8r26l67j025od2o3de",
       "title": "Cloud DNS",
-      "url": "https://www.cloudns.net/",
-      "description": "Cloud DNS hosting and Domain names | ClouDNS",
-      "addedAt": "2025-03-27T07:55:22.159Z"
+      "url": "https://www.cloudns.net/"
+    },
+    {
+      "id": "m8rhpw52iejj439yeqe",
+      "title": "PlayFab | Microsoft Azure",
+      "url": "https://azure.microsoft.com/en-us/products/playfab/",
+      "description": "",
+      "addedAt": "2025-03-27T15:10:17.078Z"
     }
   ],
   "数据": [
