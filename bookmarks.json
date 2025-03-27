@@ -403,11 +403,18 @@
       "url": "https://www.cloudns.net/"
     },
     {
+      "addedAt": "2025-03-27T15:10:17.078Z",
+      "description": "",
       "id": "m8rhpw52iejj439yeqe",
       "title": "PlayFab | Microsoft Azure",
-      "url": "https://azure.microsoft.com/en-us/products/playfab/",
+      "url": "https://azure.microsoft.com/en-us/products/playfab/"
+    },
+    {
+      "id": "m8rhxsw02zrikbczmu9",
+      "title": "Amazon GameLift Family",
+      "url": "https://aws.amazon.com/gamelift/",
       "description": "",
-      "addedAt": "2025-03-27T15:10:17.078Z"
+      "addedAt": "2025-03-27T15:16:26.112Z"
     }
   ],
   "数据": [
