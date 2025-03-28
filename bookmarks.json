@@ -424,11 +424,18 @@
       "url": "https://playfab.com/pricing/"
     },
     {
+      "addedAt": "2025-03-27T15:36:44.801Z",
+      "description": "",
       "id": "m8rinx8hac3wdr684ig",
       "title": "Multiplayer Game Development Made Easy | Photon Engine",
-      "url": "https://www.photonengine.com/zh-cn",
-      "description": "",
-      "addedAt": "2025-03-27T15:36:44.801Z"
+      "url": "https://www.photonengine.com/zh-cn"
+    },
+    {
+      "id": "m8s7b6swowm90b6vmwq",
+      "title": "Discord",
+      "url": "https://discord.com/developers",
+      "description": "面向开发者的服务",
+      "addedAt": "2025-03-28T03:06:41.072Z"
     }
   ],
   "数据": [
