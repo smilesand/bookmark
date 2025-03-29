@@ -83,6 +83,13 @@
       "id": "m8nv8hcgfwas917lxr",
       "title": "Automate without limits | Zapier",
       "url": "https://zapier.com/"
+    },
+    {
+      "id": "m8tptbbl3vgvugvxx01",
+      "title": "Qwen",
+      "url": "https://chat.qwen.ai/",
+      "description": "",
+      "addedAt": "2025-03-29T04:32:26.001Z"
     }
   ],
   "分析": [
@@ -438,11 +445,11 @@
       "url": "https://discord.com/developers"
     },
     {
+      "addedAt": "2025-03-28T05:29:58.112Z",
+      "description": "Redis",
       "id": "m8scfgbkluz3t26bjlr",
       "title": "Upstash: Serverless Data Platform",
-      "url": "https://upstash.com/",
-      "description": "Redis",
-      "addedAt": "2025-03-28T05:29:58.112Z"
+      "url": "https://upstash.com/"
     }
   ],
   "数据": [
