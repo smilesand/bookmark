@@ -150,27 +150,6 @@
       "url": "https://www.kwrds.ai/"
     }
   ],
-  "娱乐": [
-    {
-      "description": "中国知名的视频弹幕网站，提供丰富的视频内容",
-      "id": "6",
-      "title": "哔哩哔哩",
-      "url": "https://www.bilibili.com/"
-    },
-    {
-      "description": "中文社区网站，提供书籍、电影等评论和推荐",
-      "id": "7",
-      "title": "豆瓣",
-      "url": "https://www.douban.com/"
-    },
-    {
-      "addedAt": "2025-03-08T16:51:45.487Z",
-      "description": "",
-      "id": "m80fz7bjemns3hpzxlr",
-      "title": "YouTube",
-      "url": "https://www.youtube.com/"
-    }
-  ],
   "学习": [
     {
       "description": "在线学习平台，提供各类高质量课程",
