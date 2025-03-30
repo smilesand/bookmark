@@ -90,6 +90,13 @@
       "id": "m8tptbbl3vgvugvxx01",
       "title": "Qwen",
       "url": "https://chat.qwen.ai/"
+    },
+    {
+      "id": "m8vlc0hz2lmxcykf0k3",
+      "title": "Qwen",
+      "url": "https://chat.qwen.ai/",
+      "description": "阿里千问",
+      "addedAt": "2025-03-30T12:02:32.711Z"
     }
   ],
   "分析": [
@@ -324,11 +331,11 @@
       "url": "https://excalidraw.com/"
     },
     {
+      "addedAt": "2025-03-30T09:55:40.688Z",
+      "description": "Animation for Product Designers",
       "id": "m8vgsv0weqckg9gfg94",
       "title": "Phase",
-      "url": "https://www.phase.com/",
-      "description": "Animation for Product Designers",
-      "addedAt": "2025-03-30T09:55:40.688Z"
+      "url": "https://www.phase.com/"
     }
   ],
   "开发": [
