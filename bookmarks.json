@@ -183,6 +183,13 @@
       "id": "m8l738eprfma9tsvre",
       "title": "Taro 介绍 | Taro 文档",
       "url": "https://docs.taro.zone/docs/"
+    },
+    {
+      "id": "m8yku9kkpyt62cw51ce",
+      "title": "Awwwards",
+      "url": "https://www.awwwards.com/",
+      "description": "Website Awards - Best Web Design Trends，网站设计",
+      "addedAt": "2025-04-01T14:12:03.188Z"
     }
   ],
   "工作": [
@@ -338,11 +345,11 @@
       "url": "https://www.phase.com/"
     },
     {
+      "addedAt": "2025-04-01T07:09:28.181Z",
+      "description": "",
       "id": "m8y5qtit1r5bs7anw4u",
       "title": "CloudConvert",
-      "url": "https://cloudconvert.com/",
-      "description": "",
-      "addedAt": "2025-04-01T07:09:28.181Z"
+      "url": "https://cloudconvert.com/"
     }
   ],
   "开发": [
