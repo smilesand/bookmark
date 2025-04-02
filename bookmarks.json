@@ -106,6 +106,22 @@
       "url": "https://www.galileo.ai/"
     }
   ],
+  "UI": [
+    {
+      "addedAt": "2025-04-02T06:59:21.948Z",
+      "description": "",
+      "id": "m8zktof0klicxpsxvcp",
+      "title": "The Spinner CSS Loaders Collection",
+      "url": "https://css-loaders.com/spinner/"
+    },
+    {
+      "id": "m8zku1e4sci500kma2c",
+      "title": "Uiverse | The Largest Library of Open-Source UI elements",
+      "url": "https://uiverse.io/",
+      "description": "",
+      "addedAt": "2025-04-02T06:59:38.764Z"
+    }
+  ],
   "分析": [
     {
       "addedAt": "2025-03-10T06:36:23.460Z",
@@ -551,15 +567,6 @@
       "id": "m8ilelqeftyj9pn6s24",
       "title": "Wise",
       "url": "https://wise.com/"
-    }
-  ],
-  "UI": [
-    {
-      "id": "m8zktof0klicxpsxvcp",
-      "title": "The Spinner CSS Loaders Collection",
-      "url": "https://css-loaders.com/spinner/",
-      "description": "",
-      "addedAt": "2025-04-02T06:59:21.948Z"
     }
   ]
 }
