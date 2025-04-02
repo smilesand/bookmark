@@ -537,11 +537,11 @@
       "url": "https://app.lottiefiles.com/"
     },
     {
+      "addedAt": "2025-04-02T06:44:13.433Z",
+      "description": "号称全球最大UI组件库",
       "id": "m8zka7ehssfq65kaj2",
       "title": "Uiverse | The Largest Library of Open-Source UI elements",
-      "url": "https://uiverse.io/",
-      "description": "号称全球最大UI组件库",
-      "addedAt": "2025-04-02T06:44:13.433Z"
+      "url": "https://uiverse.io/"
     }
   ],
   "金融": [
@@ -551,6 +551,15 @@
       "id": "m8ilelqeftyj9pn6s24",
       "title": "Wise",
       "url": "https://wise.com/"
+    }
+  ],
+  "UI": [
+    {
+      "id": "m8zktof0klicxpsxvcp",
+      "title": "The Spinner CSS Loaders Collection",
+      "url": "https://css-loaders.com/spinner/",
+      "description": "",
+      "addedAt": "2025-04-02T06:59:21.948Z"
     }
   ]
 }
