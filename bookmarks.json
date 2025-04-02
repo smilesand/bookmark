@@ -99,11 +99,11 @@
       "url": "https://grok.com/chat"
     },
     {
+      "addedAt": "2025-04-02T06:43:06.565Z",
+      "description": "UI设计",
       "id": "m8zk8rt1v38d7pgf3sl",
       "title": "The Generative AI Evaluation Company - Galileo AI",
-      "url": "https://www.galileo.ai/",
-      "description": "UI设计",
-      "addedAt": "2025-04-02T06:43:06.565Z"
+      "url": "https://www.galileo.ai/"
     }
   ],
   "分析": [
@@ -535,6 +535,13 @@
       "id": "m8k04qbxlfqddo7f9a",
       "title": "Dashboard - LottieFiles Platform",
       "url": "https://app.lottiefiles.com/"
+    },
+    {
+      "id": "m8zka7ehssfq65kaj2",
+      "title": "Uiverse | The Largest Library of Open-Source UI elements",
+      "url": "https://uiverse.io/",
+      "description": "号称全球最大UI组件库",
+      "addedAt": "2025-04-02T06:44:13.433Z"
     }
   ],
   "金融": [
