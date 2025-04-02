@@ -97,6 +97,13 @@
       "id": "m8vlcyefsw9e3mmds8",
       "title": "Grok",
       "url": "https://grok.com/chat"
+    },
+    {
+      "id": "m8zk8rt1v38d7pgf3sl",
+      "title": "The Generative AI Evaluation Company - Galileo AI",
+      "url": "https://www.galileo.ai/",
+      "description": "UI设计",
+      "addedAt": "2025-04-02T06:43:06.565Z"
     }
   ],
   "分析": [
@@ -185,11 +192,11 @@
       "url": "https://docs.taro.zone/docs/"
     },
     {
+      "addedAt": "2025-04-01T14:12:03.188Z",
+      "description": "Website Awards - Best Web Design Trends，网站设计",
       "id": "m8yku9kkpyt62cw51ce",
       "title": "Awwwards",
-      "url": "https://www.awwwards.com/",
-      "description": "Website Awards - Best Web Design Trends，网站设计",
-      "addedAt": "2025-04-01T14:12:03.188Z"
+      "url": "https://www.awwwards.com/"
     }
   ],
   "工作": [
