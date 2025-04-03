@@ -104,6 +104,13 @@
       "id": "m8zk8rt1v38d7pgf3sl",
       "title": "The Generative AI Evaluation Company - Galileo AI",
       "url": "https://www.galileo.ai/"
+    },
+    {
+      "id": "m918w5h60aa554tx0iyh",
+      "title": "通义 - 你的个人AI助手",
+      "url": "https://tongyi.aliyun.com/",
+      "description": "",
+      "addedAt": "2025-04-03T11:00:54.330Z"
     }
   ],
   "UI": [
@@ -122,11 +129,11 @@
       "url": "https://uiverse.io/"
     },
     {
+      "addedAt": "2025-04-03T10:48:50.487Z",
+      "description": "",
       "id": "m918gmyf37d1m1geih6",
       "title": "Figma: The Collaborative Interface Design Tool",
-      "url": "https://www.figma.com/",
-      "description": "",
-      "addedAt": "2025-04-03T10:48:50.487Z"
+      "url": "https://www.figma.com/"
     }
   ],
   "分析": [
