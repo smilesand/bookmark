@@ -120,11 +120,11 @@
       "url": "https://tongyi.aliyun.com/wanxiang/"
     },
     {
+      "addedAt": "2025-04-05T04:47:19.823Z",
+      "description": "",
       "id": "m93qffnzwgtfcsncwts",
       "title": "Augment Code – 用于实际工作的开发人员 AI",
-      "url": "https://www.augmentcode.com/",
-      "description": "",
-      "addedAt": "2025-04-05T04:47:19.823Z"
+      "url": "https://www.augmentcode.com/"
     }
   ],
   "UI": [
@@ -401,6 +401,13 @@
       "id": "m8y5qtit1r5bs7anw4u",
       "title": "CloudConvert",
       "url": "https://cloudconvert.com/"
+    },
+    {
+      "id": "m94bnoptpdf5gp455hf",
+      "title": "Krita | 数字绘画。创作自由。",
+      "url": "https://krita.org/en/",
+      "description": "",
+      "addedAt": "2025-04-05T14:41:36.737Z"
     }
   ],
   "开发": [
