@@ -403,11 +403,11 @@
       "url": "https://cloudconvert.com/"
     },
     {
+      "addedAt": "2025-04-05T14:41:36.737Z",
+      "description": "",
       "id": "m94bnoptpdf5gp455hf",
       "title": "Krita | 数字绘画。创作自由。",
-      "url": "https://krita.org/en/",
-      "description": "",
-      "addedAt": "2025-04-05T14:41:36.737Z"
+      "url": "https://krita.org/en/"
     }
   ],
   "开发": [
@@ -577,6 +577,13 @@
       "id": "m81634zkv29uy52r1op",
       "title": "itch.io",
       "url": "https://itch.io/"
+    },
+    {
+      "id": "m959bj69lia7btao5b",
+      "title": "Defold - Official Homepage - Cross platform game engine",
+      "url": "https://defold.com/",
+      "description": "",
+      "addedAt": "2025-04-06T06:23:56.625Z"
     }
   ],
   "资源": [
