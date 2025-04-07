@@ -125,6 +125,13 @@
       "id": "m93qffnzwgtfcsncwts",
       "title": "Augment Code – 用于实际工作的开发人员 AI",
       "url": "https://www.augmentcode.com/"
+    },
+    {
+      "id": "m96t0cfkmrzfyluxvxb",
+      "title": "anthropic研究",
+      "url": "https://www.anthropic.com/research#interpretability",
+      "description": "",
+      "addedAt": "2025-04-07T08:22:53.168Z"
     }
   ],
   "UI": [
@@ -579,11 +586,11 @@
       "url": "https://itch.io/"
     },
     {
+      "addedAt": "2025-04-06T06:23:56.625Z",
+      "description": "",
       "id": "m959bj69lia7btao5b",
       "title": "Defold - Official Homepage - Cross platform game engine",
-      "url": "https://defold.com/",
-      "description": "",
-      "addedAt": "2025-04-06T06:23:56.625Z"
+      "url": "https://defold.com/"
     }
   ],
   "资源": [
