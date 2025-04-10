@@ -127,11 +127,18 @@
       "url": "https://www.augmentcode.com/"
     },
     {
+      "addedAt": "2025-04-07T08:22:53.168Z",
+      "description": "",
       "id": "m96t0cfkmrzfyluxvxb",
       "title": "anthropic研究",
-      "url": "https://www.anthropic.com/research#interpretability",
+      "url": "https://www.anthropic.com/research#interpretability"
+    },
+    {
+      "id": "m9b4q9w0kyiky3plo1",
+      "title": "魔搭社区",
+      "url": "https://modelscope.cn/organization/qwen",
       "description": "",
-      "addedAt": "2025-04-07T08:22:53.168Z"
+      "addedAt": "2025-04-10T09:02:03.408Z"
     }
   ],
   "UI": [
