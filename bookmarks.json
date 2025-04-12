@@ -134,11 +134,18 @@
       "url": "https://www.anthropic.com/research#interpretability"
     },
     {
+      "addedAt": "2025-04-10T09:02:03.408Z",
+      "description": "",
       "id": "m9b4q9w0kyiky3plo1",
       "title": "魔搭社区",
-      "url": "https://modelscope.cn/organization/qwen",
+      "url": "https://modelscope.cn/organization/qwen"
+    },
+    {
+      "id": "m9dozrb3eu4nsa7hxjt",
+      "title": "阿里云百炼",
+      "url": "https://bailian.console.aliyun.com/#/home",
       "description": "",
-      "addedAt": "2025-04-10T09:02:03.408Z"
+      "addedAt": "2025-04-12T04:04:50.559Z"
     }
   ],
   "UI": [
