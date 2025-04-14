@@ -607,11 +607,18 @@
       "url": "https://defold.com/"
     },
     {
+      "addedAt": "2025-04-13T10:16:02.164Z",
+      "description": "",
       "id": "m9fhoyusumdoc9ix7g",
       "title": "Start Here | Yarn Spinner",
-      "url": "https://docs.yarnspinner.dev/",
+      "url": "https://docs.yarnspinner.dev/"
+    },
+    {
+      "id": "m9ghzxtlt2t89n6ybi",
+      "title": "Spine官网: 专注于游戏的2D动画软件",
+      "url": "https://zh.esotericsoftware.com/",
       "description": "",
-      "addedAt": "2025-04-13T10:16:02.164Z"
+      "addedAt": "2025-04-14T03:12:20.217Z"
     }
   ],
   "资源": [
