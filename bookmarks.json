@@ -146,6 +146,13 @@
       "id": "m9dozrb3eu4nsa7hxjt",
       "title": "阿里云百炼",
       "url": "https://bailian.console.aliyun.com/#/home"
+    },
+    {
+      "id": "m9h2lumh2tlpwlhkrdu",
+      "title": "Agent TARS：最佳多模态 AI 智能体",
+      "url": "https://agenttars.ai/zh",
+      "description": "",
+      "addedAt": "2025-04-14T12:49:14.825Z"
     }
   ],
   "UI": [
@@ -614,11 +621,11 @@
       "url": "https://docs.yarnspinner.dev/"
     },
     {
+      "addedAt": "2025-04-14T03:12:20.217Z",
+      "description": "",
       "id": "m9ghzxtlt2t89n6ybi",
       "title": "Spine官网: 专注于游戏的2D动画软件",
-      "url": "https://zh.esotericsoftware.com/",
-      "description": "",
-      "addedAt": "2025-04-14T03:12:20.217Z"
+      "url": "https://zh.esotericsoftware.com/"
     }
   ],
   "资源": [
