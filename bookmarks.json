@@ -635,11 +635,18 @@
       "url": "https://trytalo.com/godot"
     },
     {
+      "addedAt": "2025-04-16T13:12:51.298Z",
+      "description": "",
       "id": "m9jybwwydlwvab15fzm",
       "title": "Dialogue Manager for Godot",
-      "url": "https://dialogue.nathanhoad.net/",
+      "url": "https://dialogue.nathanhoad.net/"
+    },
+    {
+      "id": "m9jzbi9yecelxxmni0v",
+      "title": "Twine / 一个用于讲述互动、非线性故事的开源工具",
+      "url": "https://twinery.org/",
       "description": "",
-      "addedAt": "2025-04-16T13:12:51.298Z"
+      "addedAt": "2025-04-16T13:40:31.942Z"
     }
   ],
   "资源": [
