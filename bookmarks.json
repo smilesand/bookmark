@@ -628,11 +628,18 @@
       "url": "https://zh.esotericsoftware.com/"
     },
     {
+      "addedAt": "2025-04-16T13:06:32.818Z",
+      "description": "",
       "id": "m9jy3svmqsr4xj6cfgi",
       "title": "Godot 插件，用于排行榜、统计数据、游戏保存等 | Talo",
-      "url": "https://trytalo.com/godot",
+      "url": "https://trytalo.com/godot"
+    },
+    {
+      "id": "m9jybwwydlwvab15fzm",
+      "title": "Dialogue Manager for Godot",
+      "url": "https://dialogue.nathanhoad.net/",
       "description": "",
-      "addedAt": "2025-04-16T13:06:32.818Z"
+      "addedAt": "2025-04-16T13:12:51.298Z"
     }
   ],
   "资源": [
