@@ -148,11 +148,11 @@
       "url": "https://bailian.console.aliyun.com/#/home"
     },
     {
+      "addedAt": "2025-04-14T12:49:14.825Z",
+      "description": "",
       "id": "m9h2lumh2tlpwlhkrdu",
       "title": "Agent TARS：最佳多模态 AI 智能体",
-      "url": "https://agenttars.ai/zh",
-      "description": "",
-      "addedAt": "2025-04-14T12:49:14.825Z"
+      "url": "https://agenttars.ai/zh"
     }
   ],
   "UI": [
@@ -626,6 +626,13 @@
       "id": "m9ghzxtlt2t89n6ybi",
       "title": "Spine官网: 专注于游戏的2D动画软件",
       "url": "https://zh.esotericsoftware.com/"
+    },
+    {
+      "id": "m9jy3svmqsr4xj6cfgi",
+      "title": "Godot 插件，用于排行榜、统计数据、游戏保存等 | Talo",
+      "url": "https://trytalo.com/godot",
+      "description": "",
+      "addedAt": "2025-04-16T13:06:32.818Z"
     }
   ],
   "资源": [
