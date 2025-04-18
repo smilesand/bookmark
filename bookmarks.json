@@ -452,11 +452,11 @@
       "url": "https://www.sublimemerge.com/"
     },
     {
+      "addedAt": "2025-04-18T08:37:57.888Z",
+      "description": "",
       "id": "m9mje3uosuzm3ldet6",
       "title": "Editor | JSON Crack",
-      "url": "https://jsoncrack.com/editor",
-      "description": "",
-      "addedAt": "2025-04-18T08:37:57.888Z"
+      "url": "https://jsoncrack.com/editor"
     }
   ],
   "开发": [
@@ -571,6 +571,13 @@
       "id": "m8wmorj98oewa9vsj16",
       "title": "Playroom - 在几分钟内构建多人游戏",
       "url": "https://joinplayroom.com/"
+    },
+    {
+      "id": "m9muclm6no85vp4ib5k",
+      "title": "NW.js",
+      "url": "https://nwjs.io/",
+      "description": "NW.js（以前称为 node-webkit）允许您直接从 DOM 调用所有 Node.js 模块，并支持使用所有 Web 技术编写应用程序的新方法。",
+      "addedAt": "2025-04-18T13:44:43.374Z"
     }
   ],
   "数据": [
