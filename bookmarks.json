@@ -153,6 +153,13 @@
       "id": "m9h2lumh2tlpwlhkrdu",
       "title": "Agent TARS：最佳多模态 AI 智能体",
       "url": "https://agenttars.ai/zh"
+    },
+    {
+      "id": "m9vfnxqr977lxxxq6w7",
+      "title": "Interface In Game | Collection of video games UI | Screenshots and videos",
+      "url": "https://interfaceingame.com/",
+      "description": "",
+      "addedAt": "2025-04-24T14:03:33.651Z"
     }
   ],
   "UI": [
@@ -677,11 +684,11 @@
       "url": "https://twinery.org/"
     },
     {
+      "addedAt": "2025-04-24T14:03:21.827Z",
+      "description": "",
       "id": "m9vfnomb20rfc8yytvy",
       "title": "Game UI Database 2.0 | Welcome",
-      "url": "https://www.gameuidatabase.com/",
-      "description": "",
-      "addedAt": "2025-04-24T14:03:21.827Z"
+      "url": "https://www.gameuidatabase.com/"
     }
   ],
   "资源": [
