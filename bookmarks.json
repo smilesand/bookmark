@@ -573,11 +573,11 @@
       "url": "https://joinplayroom.com/"
     },
     {
+      "addedAt": "2025-04-18T13:44:43.374Z",
+      "description": "NW.js（以前称为 node-webkit）允许您直接从 DOM 调用所有 Node.js 模块，并支持使用所有 Web 技术编写应用程序的新方法。",
       "id": "m9muclm6no85vp4ib5k",
       "title": "NW.js",
-      "url": "https://nwjs.io/",
-      "description": "NW.js（以前称为 node-webkit）允许您直接从 DOM 调用所有 Node.js 模块，并支持使用所有 Web 技术编写应用程序的新方法。",
-      "addedAt": "2025-04-18T13:44:43.374Z"
+      "url": "https://nwjs.io/"
     }
   ],
   "数据": [
@@ -675,6 +675,13 @@
       "id": "m9jzbi9yecelxxmni0v",
       "title": "Twine / 一个用于讲述互动、非线性故事的开源工具",
       "url": "https://twinery.org/"
+    },
+    {
+      "id": "m9vfnomb20rfc8yytvy",
+      "title": "Game UI Database 2.0 | Welcome",
+      "url": "https://www.gameuidatabase.com/",
+      "description": "",
+      "addedAt": "2025-04-24T14:03:21.827Z"
     }
   ],
   "资源": [
