@@ -283,6 +283,13 @@
       "id": "m9m34i8g2dpuf72yc49",
       "title": "抖音安全与信任中心",
       "url": "https://95152.douyin.com/"
+    },
+    {
+      "id": "m9yj6c5jxd375elj3sm",
+      "title": "archlinux 基础安装 | archlinux 简明指南",
+      "url": "https://arch.icekylin.online/guide/rookie/basic-install",
+      "description": "",
+      "addedAt": "2025-04-26T18:05:09.511Z"
     }
   ],
   "工作": [
@@ -587,11 +594,11 @@
       "url": "https://nwjs.io/"
     },
     {
+      "addedAt": "2025-04-26T17:39:30.539Z",
+      "description": "",
       "id": "m9yi9coaz6kgusrh1lc",
       "title": "Arch Linux - Downloads",
-      "url": "https://archlinux.org/download/#download-mirrors",
-      "description": "",
-      "addedAt": "2025-04-26T17:39:30.539Z"
+      "url": "https://archlinux.org/download/#download-mirrors"
     }
   ],
   "数据": [
