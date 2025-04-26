@@ -585,6 +585,13 @@
       "id": "m9muclm6no85vp4ib5k",
       "title": "NW.js",
       "url": "https://nwjs.io/"
+    },
+    {
+      "id": "m9yi9coaz6kgusrh1lc",
+      "title": "Arch Linux - Downloads",
+      "url": "https://archlinux.org/download/#download-mirrors",
+      "description": "",
+      "addedAt": "2025-04-26T17:39:30.539Z"
     }
   ],
   "数据": [
@@ -691,11 +698,11 @@
       "url": "https://www.gameuidatabase.com/"
     },
     {
+      "addedAt": "2025-04-26T06:29:57.719Z",
+      "description": "调色板",
       "id": "m9xucb4n0zs98x330fxh",
       "title": "lospec",
-      "url": "https://lospec.com/",
-      "description": "调色板",
-      "addedAt": "2025-04-26T06:29:57.719Z"
+      "url": "https://lospec.com/"
     }
   ],
   "资源": [
