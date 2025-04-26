@@ -155,11 +155,11 @@
       "url": "https://agenttars.ai/zh"
     },
     {
+      "addedAt": "2025-04-24T14:03:33.651Z",
+      "description": "",
       "id": "m9vfnxqr977lxxxq6w7",
       "title": "Interface In Game | Collection of video games UI | Screenshots and videos",
-      "url": "https://interfaceingame.com/",
-      "description": "",
-      "addedAt": "2025-04-24T14:03:33.651Z"
+      "url": "https://interfaceingame.com/"
     }
   ],
   "UI": [
@@ -689,6 +689,13 @@
       "id": "m9vfnomb20rfc8yytvy",
       "title": "Game UI Database 2.0 | Welcome",
       "url": "https://www.gameuidatabase.com/"
+    },
+    {
+      "id": "m9xucb4n0zs98x330fxh",
+      "title": "lospec",
+      "url": "https://lospec.com/",
+      "description": "调色板",
+      "addedAt": "2025-04-26T06:29:57.719Z"
     }
   ],
   "资源": [
