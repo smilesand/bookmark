@@ -167,6 +167,13 @@
       "id": "m9vfnxqr977lxxxq6w7",
       "title": "Interface In Game | Collection of video games UI | Screenshots and videos",
       "url": "https://interfaceingame.com/"
+    },
+    {
+      "id": "ma80zyydthj9s3js74m",
+      "title": "Firebase Studio",
+      "url": "https://firebase.studio/",
+      "description": "",
+      "addedAt": "2025-05-03T09:34:01.141Z"
     }
   ],
   "UI": [
@@ -292,11 +299,11 @@
       "url": "https://95152.douyin.com/"
     },
     {
+      "addedAt": "2025-04-26T18:05:09.511Z",
+      "description": "",
       "id": "m9yj6c5jxd375elj3sm",
       "title": "archlinux 基础安装 | archlinux 简明指南",
-      "url": "https://arch.icekylin.online/guide/rookie/basic-install",
-      "description": "",
-      "addedAt": "2025-04-26T18:05:09.511Z"
+      "url": "https://arch.icekylin.online/guide/rookie/basic-install"
     }
   ],
   "工作": [
