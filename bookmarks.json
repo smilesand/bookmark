@@ -169,11 +169,11 @@
       "url": "https://interfaceingame.com/"
     },
     {
+      "addedAt": "2025-05-03T09:34:01.141Z",
+      "description": "",
       "id": "ma80zyydthj9s3js74m",
       "title": "Firebase Studio",
-      "url": "https://firebase.studio/",
-      "description": "",
-      "addedAt": "2025-05-03T09:34:01.141Z"
+      "url": "https://firebase.studio/"
     }
   ],
   "UI": [
@@ -485,6 +485,13 @@
       "id": "m9mje3uosuzm3ldet6",
       "title": "Editor | JSON Crack",
       "url": "https://jsoncrack.com/editor"
+    },
+    {
+      "id": "ma9oktenm0adre914qh",
+      "title": "Ackites/hidden-word: A Unicode-based text digital watermarking tool for embedding invisible copyright marks and metadata in text content.",
+      "url": "https://github.com/Ackites/hidden-word",
+      "description": "",
+      "addedAt": "2025-05-04T13:21:51.071Z"
     }
   ],
   "开发": [
