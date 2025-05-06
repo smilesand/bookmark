@@ -176,11 +176,11 @@
       "url": "https://firebase.studio/"
     },
     {
+      "addedAt": "2025-05-04T13:42:24.428Z",
+      "description": "",
       "id": "ma9pb92k8nldo9d4jn7",
       "title": "x1xhlol/system-prompts-and-models-of-ai-tools: FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent & VSCode Agent (And other Open Sourced) System Prompts, Tools & AI Models.",
-      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-      "description": "",
-      "addedAt": "2025-05-04T13:42:24.428Z"
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
     }
   ],
   "UI": [
@@ -506,6 +506,13 @@
       "id": "ma9onr2fj1uzk6sfrl",
       "title": "d2phap/ImageGlass: 🏞 A lightweight, versatile image viewer",
       "url": "https://github.com/d2phap/ImageGlass"
+    },
+    {
+      "id": "mac507za1b3qj52yh2h",
+      "title": "SSL Checker Main page",
+      "url": "https://www.sslchecker.com/",
+      "description": "",
+      "addedAt": "2025-05-06T06:37:16.006Z"
     }
   ],
   "开发": [
