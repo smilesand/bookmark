@@ -515,11 +515,11 @@
       "url": "https://www.sslchecker.com/"
     },
     {
+      "addedAt": "2025-05-12T04:07:06.606Z",
+      "description": "",
       "id": "makka8a6nnrgq4eqarj",
       "title": "Z-Library Project - Electronic library Z. Download books free",
-      "url": "https://z-lib.id/",
-      "description": "",
-      "addedAt": "2025-05-12T04:07:06.606Z"
+      "url": "https://z-lib.id/"
     }
   ],
   "开发": [
@@ -759,6 +759,13 @@
       "id": "m9xucb4n0zs98x330fxh",
       "title": "lospec",
       "url": "https://lospec.com/"
+    },
+    {
+      "id": "maouilbie0cwwnwqnbp",
+      "title": "GroMore",
+      "url": "https://www.csjplatform.com/gromore",
+      "description": "APP流量变现-广告聚合-穿山甲广告平台",
+      "addedAt": "2025-05-15T04:04:37.614Z"
     }
   ],
   "资源": [
