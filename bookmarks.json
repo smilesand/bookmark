@@ -183,11 +183,11 @@
       "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
     },
     {
+      "addedAt": "2025-05-23T06:27:28.832Z",
+      "description": "",
       "id": "mb0f548wgix99x27onc",
       "title": "Jules - An Asynchronous Coding Agent",
-      "url": "https://jules.google/",
-      "description": "",
-      "addedAt": "2025-05-23T06:27:28.832Z"
+      "url": "https://jules.google/"
     }
   ],
   "UI": [
@@ -527,6 +527,13 @@
       "id": "makka8a6nnrgq4eqarj",
       "title": "Z-Library Project - Electronic library Z. Download books free",
       "url": "https://z-lib.id/"
+    },
+    {
+      "id": "mb0lal4eu58nr1qlsoi",
+      "title": "Z-Library – the world’s largest e-book library. Your gateway to knowledge and culture.",
+      "url": "https://101-e.ru/",
+      "description": "",
+      "addedAt": "2025-05-23T09:19:41.678Z"
     }
   ],
   "开发": [
