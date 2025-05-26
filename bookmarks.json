@@ -529,11 +529,11 @@
       "url": "https://z-lib.id/"
     },
     {
+      "addedAt": "2025-05-23T09:19:41.678Z",
+      "description": "",
       "id": "mb0lal4eu58nr1qlsoi",
       "title": "Z-Library – the world’s largest e-book library. Your gateway to knowledge and culture.",
-      "url": "https://101-e.ru/",
-      "description": "",
-      "addedAt": "2025-05-23T09:19:41.678Z"
+      "url": "https://101-e.ru/"
     }
   ],
   "开发": [
@@ -780,6 +780,13 @@
       "id": "maouilbie0cwwnwqnbp",
       "title": "GroMore",
       "url": "https://www.csjplatform.com/gromore"
+    },
+    {
+      "id": "mb4ekrhzdj8834np0t4",
+      "title": "流亡2编年史, Path of Exile Wiki",
+      "url": "https://poe2db.tw/cn/Modifiers",
+      "description": "",
+      "addedAt": "2025-05-26T01:22:43.895Z"
     }
   ],
   "资源": [
