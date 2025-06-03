@@ -204,11 +204,11 @@
       "url": "https://openrouter.ai/"
     },
     {
+      "addedAt": "2025-06-03T04:04:35.545Z",
+      "description": "",
       "id": "mbfzvqe1ow77od3bu6",
       "title": "DeepWiki | AI documentation you can talk to, for every repo",
-      "url": "https://deepwiki.com/",
-      "description": "",
-      "addedAt": "2025-06-03T04:04:35.545Z"
+      "url": "https://deepwiki.com/"
     }
   ],
   "UI": [
@@ -829,6 +829,13 @@
       "id": "mbfzjxd08f6l0ws5jdo",
       "title": "PoeCharm - 流亡2编年史, Path of Exile Wiki",
       "url": "https://poe2db.tw/cn/PoeCharm"
+    },
+    {
+      "id": "mbg9sfbz262c6fwcg38",
+      "title": "PoE Overlay I & II - The Companion Apps for Path of Exile 1 & 2",
+      "url": "https://www.poeoverlay.com/",
+      "description": "",
+      "addedAt": "2025-06-03T08:41:57.407Z"
     }
   ],
   "资源": [
