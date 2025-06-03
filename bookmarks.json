@@ -202,6 +202,13 @@
       "id": "mbagt1v491ho8dasn09",
       "title": "OpenRouter",
       "url": "https://openrouter.ai/"
+    },
+    {
+      "id": "mbfzvqe1ow77od3bu6",
+      "title": "DeepWiki | AI documentation you can talk to, for every repo",
+      "url": "https://deepwiki.com/",
+      "description": "",
+      "addedAt": "2025-06-03T04:04:35.545Z"
     }
   ],
   "UI": [
@@ -817,11 +824,11 @@
       "url": "https://pathofbuilding.community/"
     },
     {
+      "addedAt": "2025-06-03T03:55:24.708Z",
+      "description": "",
       "id": "mbfzjxd08f6l0ws5jdo",
       "title": "PoeCharm - 流亡2编年史, Path of Exile Wiki",
-      "url": "https://poe2db.tw/cn/PoeCharm",
-      "description": "",
-      "addedAt": "2025-06-03T03:55:24.708Z"
+      "url": "https://poe2db.tw/cn/PoeCharm"
     }
   ],
   "资源": [
