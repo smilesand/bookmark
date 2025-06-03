@@ -197,11 +197,11 @@
       "url": "https://www.remove.bg/zh"
     },
     {
+      "addedAt": "2025-05-30T07:11:46.864Z",
+      "description": "",
       "id": "mbagt1v491ho8dasn09",
       "title": "OpenRouter",
-      "url": "https://openrouter.ai/",
-      "description": "",
-      "addedAt": "2025-05-30T07:11:46.864Z"
+      "url": "https://openrouter.ai/"
     }
   ],
   "UI": [
@@ -808,6 +808,13 @@
       "id": "mb4ekrhzdj8834np0t4",
       "title": "流亡2编年史, Path of Exile Wiki",
       "url": "https://poe2db.tw/cn/Modifiers"
+    },
+    {
+      "id": "mbfvocguxmndwfebrlm",
+      "title": "Path of Building Community Fork | Path of Building Community",
+      "url": "https://pathofbuilding.community/",
+      "description": "",
+      "addedAt": "2025-06-03T02:06:52.446Z"
     }
   ],
   "资源": [
