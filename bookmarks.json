@@ -211,11 +211,11 @@
       "url": "https://deepwiki.com/"
     },
     {
+      "addedAt": "2025-06-08T14:18:14.680Z",
+      "description": "",
       "id": "mbnr05jse1uvfoe4git",
       "title": "在线原神、星穹铁道、鸣潮、英雄联盟LOL、红警、APEX、泰坦陨落、日本动漫角色 - 免费文本转语音 | TTS-Online",
-      "url": "https://acgn.ttson.cn/",
-      "description": "",
-      "addedAt": "2025-06-08T14:18:14.680Z"
+      "url": "https://acgn.ttson.cn/"
     }
   ],
   "UI": [
@@ -697,6 +697,13 @@
       "id": "m9yi9coaz6kgusrh1lc",
       "title": "Arch Linux - Downloads",
       "url": "https://archlinux.org/download/#download-mirrors"
+    },
+    {
+      "id": "mbpykt4qfbm0l4fobi5",
+      "title": "Tauri 2.0 | Tauri",
+      "url": "https://v2.tauri.app/",
+      "description": "Electron 的替代方案",
+      "addedAt": "2025-06-10T03:25:48.026Z"
     }
   ],
   "数据": [
