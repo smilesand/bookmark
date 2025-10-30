@@ -592,11 +592,18 @@
       "url": "https://github.com/OpenCut-app/OpenCut"
     },
     {
+      "addedAt": "2025-10-16T01:30:05.201Z",
+      "description": "",
       "id": "mgsqt1chzk2v3gj0fv9",
       "title": "Moonlight 游戏串流：远程畅玩 PC 游戏",
-      "url": "https://moonlight-stream.org/",
+      "url": "https://moonlight-stream.org/"
+    },
+    {
+      "id": "mhcucbutbl4yz1kkrc5",
+      "title": "AutoHotkey",
+      "url": "https://www.autohotkey.com/",
       "description": "",
-      "addedAt": "2025-10-16T01:30:05.201Z"
+      "addedAt": "2025-10-30T03:04:27.653Z"
     }
   ],
   "开发": [
