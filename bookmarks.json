@@ -599,11 +599,18 @@
       "url": "https://moonlight-stream.org/"
     },
     {
+      "addedAt": "2025-10-30T03:04:27.653Z",
+      "description": "",
       "id": "mhcucbutbl4yz1kkrc5",
       "title": "AutoHotkey",
-      "url": "https://www.autohotkey.com/",
-      "description": "",
-      "addedAt": "2025-10-30T03:04:27.653Z"
+      "url": "https://www.autohotkey.com/"
+    },
+    {
+      "id": "mhwr46054l5aotg0ul5",
+      "title": "B站视频下载",
+      "url": "https://greenvideo.cc/bilibili",
+      "description": "哔哩哔哩视频免费下载工具_bilibili视频、图片、音频保存至本地-GreenVideo视频下载",
+      "addedAt": "2025-11-13T01:29:31.493Z"
     }
   ],
   "开发": [
