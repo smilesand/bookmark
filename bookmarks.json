@@ -613,11 +613,18 @@
       "url": "https://greenvideo.cc/bilibili"
     },
     {
+      "addedAt": "2025-11-20T07:12:34.411Z",
+      "description": "",
       "id": "mi73gajvefpnhpg9ms",
       "title": "File Converter - Convert & compress everything in 2 clicks!",
-      "url": "https://file-converter.io/?from=readme.md",
-      "description": "",
-      "addedAt": "2025-11-20T07:12:34.411Z"
+      "url": "https://file-converter.io/?from=readme.md"
+    },
+    {
+      "id": "misldlg3q2fr6koavxp",
+      "title": "资源黑客",
+      "url": "https://www.angusj.com/resourcehacker/",
+      "description": "一款适用于 Windows® 应用程序的免费资源编译器和反编译器",
+      "addedAt": "2025-12-05T08:17:31.348Z"
     }
   ],
   "开发": [
