@@ -620,11 +620,11 @@
       "url": "https://file-converter.io/?from=readme.md"
     },
     {
+      "addedAt": "2025-12-05T08:17:31.348Z",
+      "description": "一款适用于 Windows® 应用程序的免费资源编译器和反编译器",
       "id": "misldlg3q2fr6koavxp",
       "title": "资源黑客",
-      "url": "https://www.angusj.com/resourcehacker/",
-      "description": "一款适用于 Windows® 应用程序的免费资源编译器和反编译器",
-      "addedAt": "2025-12-05T08:17:31.348Z"
+      "url": "https://www.angusj.com/resourcehacker/"
     }
   ],
   "开发": [
@@ -767,6 +767,13 @@
       "id": "me2h5f9pys6u4s6y49",
       "title": "MQTTX 下载",
       "url": "https://mqttx.app/zh/downloads"
+    },
+    {
+      "id": "misltkni7esju48w7zp",
+      "title": "Go语言编译时为exe添加图标和属性信息的方法 - 烟熏牛肉干 - 博客园",
+      "url": "https://www.cnblogs.com/biltong/p/18269684",
+      "description": "",
+      "addedAt": "2025-12-05T08:29:56.814Z"
     }
   ],
   "数据": [
