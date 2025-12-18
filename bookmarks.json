@@ -218,11 +218,11 @@
       "url": "https://acgn.ttson.cn/"
     },
     {
+      "addedAt": "2025-12-16T09:06:30.321Z",
+      "description": "",
       "id": "mj8cyyi95tfkefsyqyg",
       "title": "RawChat公益站点",
-      "url": "https://sharedchat.fun/",
-      "description": "",
-      "addedAt": "2025-12-16T09:06:30.321Z"
+      "url": "https://sharedchat.fun/"
     }
   ],
   "UI": [
@@ -632,6 +632,13 @@
       "id": "misldlg3q2fr6koavxp",
       "title": "资源黑客",
       "url": "https://www.angusj.com/resourcehacker/"
+    },
+    {
+      "id": "mjaqo8o6jpty0t32mp",
+      "title": "微信聊天模拟器 | 在线制作微信聊天截图工具 - 懒人工具",
+      "url": "https://www.lanren-tools.com/wechat/",
+      "description": "",
+      "addedAt": "2025-12-18T01:05:37.254Z"
     }
   ],
   "开发": [
