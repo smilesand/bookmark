@@ -353,6 +353,13 @@
       "id": "m9yj6c5jxd375elj3sm",
       "title": "archlinux 基础安装 | archlinux 简明指南",
       "url": "https://arch.icekylin.online/guide/rookie/basic-install"
+    },
+    {
+      "id": "mjgs9jilnk05nsffhuo",
+      "title": "JavaGuide",
+      "url": "https://javaguide.cn/javaguide/intro.html",
+      "description": "",
+      "addedAt": "2025-12-22T06:36:47.757Z"
     }
   ],
   "工作": [
@@ -641,11 +648,11 @@
       "url": "https://www.lanren-tools.com/wechat/"
     },
     {
+      "addedAt": "2025-12-19T00:59:47.604Z",
+      "description": "",
       "id": "mjc5wljotcshpf2azbj",
       "title": "开心搭",
-      "url": "https://manggehaili.cn/",
-      "description": "",
-      "addedAt": "2025-12-19T00:59:47.604Z"
+      "url": "https://manggehaili.cn/"
     }
   ],
   "开发": [
