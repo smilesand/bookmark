@@ -832,11 +832,18 @@
       "url": "https://twikoo.js.org/"
     },
     {
+      "addedAt": "2026-01-16T09:32:37.769Z",
+      "description": "",
       "id": "mkgojymhuj9xsdzkbwg",
       "title": "Trending repositories on GitHub today",
-      "url": "https://github.com/trending",
-      "description": "",
-      "addedAt": "2026-01-16T09:32:37.769Z"
+      "url": "https://github.com/trending"
+    },
+    {
+      "id": "mkgoyqilev2u6g85trw",
+      "title": "Puck - Agentic visual editor for React",
+      "url": "https://puckeditor.com/",
+      "description": "React可视化编辑器",
+      "addedAt": "2026-01-16T09:44:07.101Z"
     }
   ],
   "数据": [
