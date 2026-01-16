@@ -660,6 +660,13 @@
       "id": "mjc5wljotcshpf2azbj",
       "title": "开心搭",
       "url": "https://manggehaili.cn/"
+    },
+    {
+      "id": "mkgijnn4w4f1iv85i7",
+      "title": "仪表盘 - 良心云（VPN）",
+      "url": "https://xn--9kqz23b19z.com/#/dashboard",
+      "description": "VPN",
+      "addedAt": "2026-01-16T06:44:25.840Z"
     }
   ],
   "开发": [
@@ -1006,6 +1013,15 @@
       "url": "https://poe.game.qq.com/trade2/search/poe2/%E6%B7%B1%E6%B8%8A%E5%B4%9B%E8%B5%B7"
     }
   ],
+  "玩具": [
+    {
+      "addedAt": "2026-01-07T11:38:11.709Z",
+      "description": "",
+      "id": "mk3y2ruldupp10tv3kc",
+      "title": "DIY教程：固件+电路图分享【千秋我不见】 - Feishu Docs",
+      "url": "https://bcntl9uxy905.feishu.cn/wiki/GimEwTsWfiFViWkpv8ccnC3knah"
+    }
+  ],
   "资源": [
     {
       "addedAt": "2025-03-22T09:23:33.069Z",
@@ -1029,15 +1045,6 @@
       "id": "m8ilelqeftyj9pn6s24",
       "title": "Wise",
       "url": "https://wise.com/"
-    }
-  ],
-  "玩具": [
-    {
-      "id": "mk3y2ruldupp10tv3kc",
-      "title": "DIY教程：固件+电路图分享【千秋我不见】 - Feishu Docs",
-      "url": "https://bcntl9uxy905.feishu.cn/wiki/GimEwTsWfiFViWkpv8ccnC3knah",
-      "description": "",
-      "addedAt": "2026-01-07T11:38:11.709Z"
     }
   ]
 }
