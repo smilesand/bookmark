@@ -230,6 +230,13 @@
       "id": "mjm8sctvzmon43c3wkl",
       "title": "Claude",
       "url": "https://claude.ai/new"
+    },
+    {
+      "id": "mkkx6hb7tbqu0usfm4",
+      "title": "OpenBMB/VoxCPM：VoxCPM：用于上下文感知语音生成和逼真语音克隆的无分词器TTS",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "",
+      "addedAt": "2026-01-19T08:45:10.051Z"
     }
   ],
   "UI": [
@@ -1061,11 +1068,11 @@
       "url": "https://wise.com/"
     },
     {
+      "addedAt": "2026-01-19T08:37:36.009Z",
+      "description": "",
       "id": "mkkwwqyx61kgrwhfwvl",
       "title": "nautechsystems/nautilus_trader：高性能算法交易平台和事件驱动型回测器",
-      "url": "https://github.com/nautechsystems/nautilus_trader",
-      "description": "",
-      "addedAt": "2026-01-19T08:37:36.009Z"
+      "url": "https://github.com/nautechsystems/nautilus_trader"
     }
   ]
 }
