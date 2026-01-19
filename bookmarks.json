@@ -690,11 +690,18 @@
       "url": "https://github.com/squidfunk/mkdocs-material"
     },
     {
+      "addedAt": "2026-01-19T09:05:43.559Z",
+      "description": "",
       "id": "mkkxwx3bohk9fveu4b",
       "title": "AlistGo/alist: 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。",
-      "url": "https://github.com/AlistGo/alist",
+      "url": "https://github.com/AlistGo/alist"
+    },
+    {
+      "id": "mkkz7rn6xi8sh0njis",
+      "title": "sxyazi/yazi：💥 用 Rust 编写的超快终端文件管理器，基于异步 I/O。",
+      "url": "https://github.com/sxyazi/yazi",
       "description": "",
-      "addedAt": "2026-01-19T09:05:43.559Z"
+      "addedAt": "2026-01-19T09:42:09.330Z"
     }
   ],
   "开发": [
