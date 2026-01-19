@@ -683,11 +683,18 @@
       "url": "https://xn--9kqz23b19z.com/#/dashboard"
     },
     {
+      "addedAt": "2026-01-19T08:55:29.754Z",
+      "description": "",
       "id": "mkkxjrh6bs71nw1z3ys",
       "title": "squidfunk/mkdocs-material：简单易用的文档",
-      "url": "https://github.com/squidfunk/mkdocs-material",
+      "url": "https://github.com/squidfunk/mkdocs-material"
+    },
+    {
+      "id": "mkkxwx3bohk9fveu4b",
+      "title": "AlistGo/alist: 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。",
+      "url": "https://github.com/AlistGo/alist",
       "description": "",
-      "addedAt": "2026-01-19T08:55:29.754Z"
+      "addedAt": "2026-01-19T09:05:43.559Z"
     }
   ],
   "开发": [
