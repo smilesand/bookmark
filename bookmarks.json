@@ -232,11 +232,18 @@
       "url": "https://claude.ai/new"
     },
     {
+      "addedAt": "2026-01-19T08:45:10.051Z",
+      "description": "",
       "id": "mkkx6hb7tbqu0usfm4",
       "title": "OpenBMB/VoxCPM：VoxCPM：用于上下文感知语音生成和逼真语音克隆的无分词器TTS",
-      "url": "https://github.com/OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM"
+    },
+    {
+      "addedAt": "2026-01-19T08:49:20.933Z",
       "description": "",
-      "addedAt": "2026-01-19T08:45:10.051Z"
+      "id": "mkkxbuw56uca4lotyt5",
+      "title": "yichuan-w/LEANN：使用 LEANN 对所有内容进行 RAG 检测。在您的个人设备上运行快速、准确且 100% 私密的 RAG 应用程序，同时节省 97% 的存储空间。",
+      "url": "https://github.com/yichuan-w/LEANN"
     }
   ],
   "UI": [
@@ -674,6 +681,13 @@
       "id": "mkgijnn4w4f1iv85i7",
       "title": "仪表盘 - 良心云（VPN）",
       "url": "https://xn--9kqz23b19z.com/#/dashboard"
+    },
+    {
+      "id": "mkkxjrh6bs71nw1z3ys",
+      "title": "squidfunk/mkdocs-material：简单易用的文档",
+      "url": "https://github.com/squidfunk/mkdocs-material",
+      "description": "",
+      "addedAt": "2026-01-19T08:55:29.754Z"
     }
   ],
   "开发": [
