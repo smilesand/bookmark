@@ -839,11 +839,11 @@
       "url": "https://github.com/trending"
     },
     {
+      "addedAt": "2026-01-16T09:44:07.101Z",
+      "description": "React可视化编辑器",
       "id": "mkgoyqilev2u6g85trw",
       "title": "Puck - Agentic visual editor for React",
-      "url": "https://puckeditor.com/",
-      "description": "React可视化编辑器",
-      "addedAt": "2026-01-16T09:44:07.101Z"
+      "url": "https://puckeditor.com/"
     }
   ],
   "数据": [
@@ -1059,6 +1059,13 @@
       "id": "m8ilelqeftyj9pn6s24",
       "title": "Wise",
       "url": "https://wise.com/"
+    },
+    {
+      "id": "mkkwwqyx61kgrwhfwvl",
+      "title": "nautechsystems/nautilus_trader：高性能算法交易平台和事件驱动型回测器",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "",
+      "addedAt": "2026-01-19T08:37:36.009Z"
     }
   ]
 }
