@@ -244,6 +244,13 @@
       "id": "mkkxbuw56uca4lotyt5",
       "title": "yichuan-w/LEANN：使用 LEANN 对所有内容进行 RAG 检测。在您的个人设备上运行快速、准确且 100% 私密的 RAG 应用程序，同时节省 97% 的存储空间。",
       "url": "https://github.com/yichuan-w/LEANN"
+    },
+    {
+      "id": "mklxzqpuz90wpq3v4or",
+      "title": "n8n-io/n8n：公平代码工作流自动化平台，具备原生 AI 功能。支持可视化构建与自定义代码相结合，可自托管或云端部署，集成超过 400 种方案。",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "",
+      "addedAt": "2026-01-20T01:55:41.442Z"
     }
   ],
   "UI": [
@@ -697,11 +704,11 @@
       "url": "https://github.com/AlistGo/alist"
     },
     {
+      "addedAt": "2026-01-19T09:42:09.330Z",
+      "description": "",
       "id": "mkkz7rn6xi8sh0njis",
       "title": "sxyazi/yazi：💥 用 Rust 编写的超快终端文件管理器，基于异步 I/O。",
-      "url": "https://github.com/sxyazi/yazi",
-      "description": "",
-      "addedAt": "2026-01-19T09:42:09.330Z"
+      "url": "https://github.com/sxyazi/yazi"
     }
   ],
   "开发": [
