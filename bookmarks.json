@@ -246,11 +246,11 @@
       "url": "https://github.com/yichuan-w/LEANN"
     },
     {
+      "addedAt": "2026-01-20T01:55:41.442Z",
+      "description": "",
       "id": "mklxzqpuz90wpq3v4or",
       "title": "n8n-io/n8n：公平代码工作流自动化平台，具备原生 AI 功能。支持可视化构建与自定义代码相结合，可自托管或云端部署，集成超过 400 种方案。",
-      "url": "https://github.com/n8n-io/n8n",
-      "description": "",
-      "addedAt": "2026-01-20T01:55:41.442Z"
+      "url": "https://github.com/n8n-io/n8n"
     }
   ],
   "UI": [
@@ -886,6 +886,13 @@
       "id": "mkgoyqilev2u6g85trw",
       "title": "Puck - Agentic visual editor for React",
       "url": "https://puckeditor.com/"
+    },
+    {
+      "id": "mkuu856sfvh8k5hxsgj",
+      "title": "cure53/DOMPurify：DOMPurify 是一款仅针对 HTML、MathML 和 SVG 的 DOM 级超快、超强容错性的 XSS 安全防护工具。DOMPurify 默认安全，但提供了丰富的配置选项和钩子。演示：",
+      "url": "https://github.com/cure53/DOMPurify",
+      "description": "",
+      "addedAt": "2026-01-26T07:20:10.564Z"
     }
   ],
   "数据": [
