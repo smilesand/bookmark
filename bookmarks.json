@@ -253,11 +253,11 @@
       "url": "https://github.com/n8n-io/n8n"
     },
     {
+      "addedAt": "2026-01-26T12:29:52.650Z",
+      "description": "邮件服务",
       "id": "mkv5af7up6byff0m8l",
       "title": "Resend",
-      "url": "https://resend.com/login",
-      "description": "邮件服务",
-      "addedAt": "2026-01-26T12:29:52.650Z"
+      "url": "https://resend.com/login"
     }
   ],
   "UI": [
@@ -281,6 +281,13 @@
       "id": "m918gmyf37d1m1geih6",
       "title": "Figma: The Collaborative Interface Design Tool",
       "url": "https://www.figma.com/"
+    },
+    {
+      "id": "mkvxplm61bg368rpqcj",
+      "title": "Theming - shadcn/vue",
+      "url": "https://www.shadcn-vue.com/docs/theming",
+      "description": "",
+      "addedAt": "2026-01-27T01:45:30.030Z"
     }
   ],
   "分析": [
