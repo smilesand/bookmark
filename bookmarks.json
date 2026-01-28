@@ -283,11 +283,11 @@
       "url": "https://www.figma.com/"
     },
     {
+      "addedAt": "2026-01-27T01:45:30.030Z",
+      "description": "",
       "id": "mkvxplm61bg368rpqcj",
       "title": "Theming - shadcn/vue",
-      "url": "https://www.shadcn-vue.com/docs/theming",
-      "description": "",
-      "addedAt": "2026-01-27T01:45:30.030Z"
+      "url": "https://www.shadcn-vue.com/docs/theming"
     }
   ],
   "分析": [
@@ -723,6 +723,13 @@
       "id": "mkkz7rn6xi8sh0njis",
       "title": "sxyazi/yazi：💥 用 Rust 编写的超快终端文件管理器，基于异步 I/O。",
       "url": "https://github.com/sxyazi/yazi"
+    },
+    {
+      "id": "mky4yendkk89u2k7ctg",
+      "title": "免费开源匿名邮件转发服务 - addy.io",
+      "url": "https://addy.io/#pricing",
+      "description": "",
+      "addedAt": "2026-01-28T14:43:50.569Z"
     }
   ],
   "开发": [
