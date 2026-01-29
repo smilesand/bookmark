@@ -725,11 +725,11 @@
       "url": "https://github.com/sxyazi/yazi"
     },
     {
+      "addedAt": "2026-01-28T14:43:50.569Z",
+      "description": "",
       "id": "mky4yendkk89u2k7ctg",
       "title": "免费开源匿名邮件转发服务 - addy.io",
-      "url": "https://addy.io/#pricing",
-      "description": "",
-      "addedAt": "2026-01-28T14:43:50.569Z"
+      "url": "https://addy.io/#pricing"
     }
   ],
   "开发": [
@@ -914,6 +914,13 @@
       "id": "mkuu856sfvh8k5hxsgj",
       "title": "cure53/DOMPurify：DOMPurify 是一款仅针对 HTML、MathML 和 SVG 的 DOM 级超快、超强容错性的 XSS 安全防护工具。DOMPurify 默认安全，但提供了丰富的配置选项和钩子。演示：",
       "url": "https://github.com/cure53/DOMPurify"
+    },
+    {
+      "id": "mkzbyxrtqs9tuu1a81",
+      "title": "Amazon SES",
+      "url": "https://aws.amazon.com/cn/ses/pricing/",
+      "description": "",
+      "addedAt": "2026-01-29T10:47:58.841Z"
     }
   ],
   "数据": [
