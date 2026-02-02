@@ -290,11 +290,11 @@
       "url": "https://www.shadcn-vue.com/docs/theming"
     },
     {
+      "addedAt": "2026-01-30T07:39:44.540Z",
+      "description": "",
       "id": "ml0kopp8enqe8wwgpur",
       "title": "microsoft/fluentui-emoji：来自微软的一系列熟悉、友好且现代的表情符号",
-      "url": "https://github.com/microsoft/fluentui-emoji/tree/main",
-      "description": "",
-      "addedAt": "2026-01-30T07:39:44.540Z"
+      "url": "https://github.com/microsoft/fluentui-emoji/tree/main"
     }
   ],
   "分析": [
@@ -928,6 +928,13 @@
       "id": "mkzbyxrtqs9tuu1a81",
       "title": "Amazon SES",
       "url": "https://aws.amazon.com/cn/ses/pricing/"
+    },
+    {
+      "id": "ml4kw6ocptlq8an0mgs",
+      "title": "Plans V5 - Brevo",
+      "url": "https://app.brevo.com/billing/account/plans/selection?headerContent=false",
+      "description": "邮件发送服务商",
+      "addedAt": "2026-02-02T02:56:37.836Z"
     }
   ],
   "数据": [
