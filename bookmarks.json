@@ -937,11 +937,18 @@
       "url": "https://app.brevo.com/billing/account/plans/selection?headerContent=false"
     },
     {
+      "addedAt": "2026-02-03T07:04:06.766Z",
+      "description": "前端打包跨平台工具",
       "id": "ml696aum41elu4a0ycm",
       "title": "Tauri 2.0 | Tauri",
-      "url": "https://v2.tauri.app/zh-cn/",
-      "description": "前端打包跨平台工具",
-      "addedAt": "2026-02-03T07:04:06.766Z"
+      "url": "https://v2.tauri.app/zh-cn/"
+    },
+    {
+      "id": "ml69q1uuaaczzelljmo",
+      "title": "Phaser - A fast, fun and free open source HTML5 game framework",
+      "url": "https://phaser.io/",
+      "description": "",
+      "addedAt": "2026-02-03T07:19:28.230Z"
     }
   ],
   "数据": [
