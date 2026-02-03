@@ -930,11 +930,18 @@
       "url": "https://aws.amazon.com/cn/ses/pricing/"
     },
     {
+      "addedAt": "2026-02-02T02:56:37.836Z",
+      "description": "邮件发送服务商",
       "id": "ml4kw6ocptlq8an0mgs",
       "title": "Plans V5 - Brevo",
-      "url": "https://app.brevo.com/billing/account/plans/selection?headerContent=false",
-      "description": "邮件发送服务商",
-      "addedAt": "2026-02-02T02:56:37.836Z"
+      "url": "https://app.brevo.com/billing/account/plans/selection?headerContent=false"
+    },
+    {
+      "id": "ml696aum41elu4a0ycm",
+      "title": "Tauri 2.0 | Tauri",
+      "url": "https://v2.tauri.app/zh-cn/",
+      "description": "前端打包跨平台工具",
+      "addedAt": "2026-02-03T07:04:06.766Z"
     }
   ],
   "数据": [
