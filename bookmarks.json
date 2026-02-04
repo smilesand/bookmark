@@ -746,11 +746,18 @@
       "url": "https://addy.io/#pricing"
     },
     {
+      "addedAt": "2026-02-04T06:43:26.191Z",
+      "description": "",
       "id": "ml7nvka7pyeeyo9av68",
       "title": "Release LTSC-Add-MicrosoftStore · kkkgo/LTSC-Add-MicrosoftStore",
-      "url": "https://github.com/kkkgo/LTSC-Add-MicrosoftStore/releases/tag/2019",
+      "url": "https://github.com/kkkgo/LTSC-Add-MicrosoftStore/releases/tag/2019"
+    },
+    {
+      "id": "ml7rwyug6hfh3b7vip",
+      "title": "GitHub 文件下载加速代理 - GitHub Proxy",
+      "url": "https://github.akams.cn/",
       "description": "",
-      "addedAt": "2026-02-04T06:43:26.191Z"
+      "addedAt": "2026-02-04T08:36:30.184Z"
     }
   ],
   "开发": [
