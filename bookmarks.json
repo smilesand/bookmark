@@ -423,6 +423,13 @@
       "id": "ml7ssjd81u7udbqls3h",
       "title": "在 Win10 LTSC 2021上安装 WSL - 知乎",
       "url": "https://zhuanlan.zhihu.com/p/435166554"
+    },
+    {
+      "id": "ml831x4gmyz9haz8ctk",
+      "title": "设备流 (Device flow) 是什么？ · Auth Wiki",
+      "url": "https://auth-wiki.logto.io/zh/device-flow",
+      "description": "",
+      "addedAt": "2026-02-04T13:48:17.008Z"
     }
   ],
   "工作": [
@@ -993,11 +1000,11 @@
       "url": "https://capacitorjs.com/"
     },
     {
+      "addedAt": "2026-02-04T13:39:16.590Z",
+      "description": "",
       "id": "ml82qc4u3h4i3bl8x7z",
       "title": "octokit/octokit.js: The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno.",
-      "url": "https://github.com/octokit/octokit.js",
-      "description": "",
-      "addedAt": "2026-02-04T13:39:16.590Z"
+      "url": "https://github.com/octokit/octokit.js"
     }
   ],
   "数据": [
