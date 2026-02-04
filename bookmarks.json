@@ -753,11 +753,18 @@
       "url": "https://github.com/kkkgo/LTSC-Add-MicrosoftStore/releases/tag/2019"
     },
     {
+      "addedAt": "2026-02-04T08:36:30.184Z",
+      "description": "",
       "id": "ml7rwyug6hfh3b7vip",
       "title": "GitHub 文件下载加速代理 - GitHub Proxy",
-      "url": "https://github.akams.cn/",
+      "url": "https://github.akams.cn/"
+    },
+    {
+      "id": "ml7rx9l2ae26uwpjtk7",
+      "title": "clash-verge-rev/clash-verge-rev: A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
       "description": "",
-      "addedAt": "2026-02-04T08:36:30.184Z"
+      "addedAt": "2026-02-04T08:36:44.102Z"
     }
   ],
   "开发": [
