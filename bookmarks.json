@@ -416,6 +416,13 @@
       "id": "ml6nx5lh20god91rwg6",
       "title": "Linux source code (v6.18.6) - Bootlin Elixir Cross Referencer",
       "url": "https://elixir.bootlin.com/linux/v6.18.6/source"
+    },
+    {
+      "id": "ml7ssjd81u7udbqls3h",
+      "title": "在 Win10 LTSC 2021上安装 WSL - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/435166554",
+      "description": "",
+      "addedAt": "2026-02-04T09:01:03.116Z"
     }
   ],
   "工作": [
@@ -760,11 +767,11 @@
       "url": "https://github.akams.cn/"
     },
     {
+      "addedAt": "2026-02-04T08:36:44.102Z",
+      "description": "",
       "id": "ml7rx9l2ae26uwpjtk7",
       "title": "clash-verge-rev/clash-verge-rev: A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
-      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "description": "",
-      "addedAt": "2026-02-04T08:36:44.102Z"
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev"
     }
   ],
   "开发": [
