@@ -781,11 +781,11 @@
       "url": "https://github.com/clash-verge-rev/clash-verge-rev"
     },
     {
+      "addedAt": "2026-02-06T09:38:34.284Z",
+      "description": "",
       "id": "mlap0hpopgphm3h36sq",
       "title": "remotion-dev/remotion: 🎥 Make videos programmatically with React",
-      "url": "https://github.com/remotion-dev/remotion",
-      "description": "",
-      "addedAt": "2026-02-06T09:38:34.284Z"
+      "url": "https://github.com/remotion-dev/remotion"
     }
   ],
   "开发": [
@@ -1218,6 +1218,13 @@
       "id": "m8zka7ehssfq65kaj2",
       "title": "Uiverse | The Largest Library of Open-Source UI elements",
       "url": "https://uiverse.io/"
+    },
+    {
+      "id": "mlaw8nugbxz98ku3qe8",
+      "title": "Windows LTSC Download | MAS",
+      "url": "https://massgrave.dev/windows_ltsc_links",
+      "description": "",
+      "addedAt": "2026-02-06T13:00:52.792Z"
     }
   ],
   "金融": [
