@@ -425,11 +425,11 @@
       "url": "https://zhuanlan.zhihu.com/p/435166554"
     },
     {
+      "addedAt": "2026-02-04T13:48:17.008Z",
+      "description": "",
       "id": "ml831x4gmyz9haz8ctk",
       "title": "设备流 (Device flow) 是什么？ · Auth Wiki",
-      "url": "https://auth-wiki.logto.io/zh/device-flow",
-      "description": "",
-      "addedAt": "2026-02-04T13:48:17.008Z"
+      "url": "https://auth-wiki.logto.io/zh/device-flow"
     }
   ],
   "工作": [
@@ -779,6 +779,13 @@
       "id": "ml7rx9l2ae26uwpjtk7",
       "title": "clash-verge-rev/clash-verge-rev: A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
       "url": "https://github.com/clash-verge-rev/clash-verge-rev"
+    },
+    {
+      "id": "mlap0hpopgphm3h36sq",
+      "title": "remotion-dev/remotion: 🎥 Make videos programmatically with React",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "",
+      "addedAt": "2026-02-06T09:38:34.284Z"
     }
   ],
   "开发": [
