@@ -267,11 +267,18 @@
       "url": "https://freesound.org/?feedbackRegistration=1"
     },
     {
+      "addedAt": "2026-02-25T03:10:10.570Z",
+      "description": "",
       "id": "mm1gi74a7ru9ncmcakg",
       "title": "moonshine-ai/moonshine：面向边缘设备的快速、准确的自动语音识别 (ASR)",
-      "url": "https://github.com/moonshine-ai/moonshine",
-      "description": "",
-      "addedAt": "2026-02-25T03:10:10.570Z"
+      "url": "https://github.com/moonshine-ai/moonshine"
+    },
+    {
+      "id": "mm1p3ex0029fk8hgnbh1",
+      "title": "Ultralytics YOLO26 - Ultralytics YOLO Docs",
+      "url": "https://docs.ultralytics.com/models/yolo26/",
+      "description": "还能再优化吗？yolo",
+      "addedAt": "2026-02-25T07:10:37.380Z"
     }
   ],
   "UI": [
