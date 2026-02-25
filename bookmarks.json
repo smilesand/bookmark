@@ -260,11 +260,18 @@
       "url": "https://resend.com/login"
     },
     {
+      "addedAt": "2026-02-25T02:20:12.244Z",
+      "description": "Find any sound you like",
       "id": "mm1epxlgy5dmsqdbp59",
       "title": "Freesound",
-      "url": "https://freesound.org/?feedbackRegistration=1",
-      "description": "Find any sound you like",
-      "addedAt": "2026-02-25T02:20:12.244Z"
+      "url": "https://freesound.org/?feedbackRegistration=1"
+    },
+    {
+      "id": "mm1gi74a7ru9ncmcakg",
+      "title": "moonshine-ai/moonshine：面向边缘设备的快速、准确的自动语音识别 (ASR)",
+      "url": "https://github.com/moonshine-ai/moonshine",
+      "description": "",
+      "addedAt": "2026-02-25T03:10:10.570Z"
     }
   ],
   "UI": [
