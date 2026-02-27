@@ -807,6 +807,13 @@
       "id": "mlap0hpopgphm3h36sq",
       "title": "remotion-dev/remotion: 🎥 Make videos programmatically with React",
       "url": "https://github.com/remotion-dev/remotion"
+    },
+    {
+      "id": "mm4kp005xkty2wp8aw",
+      "title": "Huanshere/VideoLingo: Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组",
+      "url": "https://github.com/Huanshere/VideoLingo",
+      "description": "Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组",
+      "addedAt": "2026-02-27T07:30:44.933Z"
     }
   ],
   "开发": [
@@ -1035,11 +1042,11 @@
       "url": "https://github.com/octokit/octokit.js"
     },
     {
+      "addedAt": "2026-02-27T02:55:01.064Z",
+      "description": "一个简单的HTTP请求和响应服务。",
       "id": "mm4aueo8ptfrondw1h8",
       "title": "httpbin.org",
-      "url": "https://httpbin.org/#/",
-      "description": "一个简单的HTTP请求和响应服务。",
-      "addedAt": "2026-02-27T02:55:01.064Z"
+      "url": "https://httpbin.org/#/"
     }
   ],
   "数据": [
