@@ -1063,11 +1063,18 @@
       "url": "https://httpbin.org/#/"
     },
     {
+      "addedAt": "2026-02-27T08:11:12.419Z",
+      "description": "开源导航",
       "id": "mm4m512bypxaq6adhzn",
       "title": "osmandapp/OsmAnd: OsmAnd",
-      "url": "https://github.com/osmandapp/OsmAnd",
-      "description": "开源导航",
-      "addedAt": "2026-02-27T08:11:12.419Z"
+      "url": "https://github.com/osmandapp/OsmAnd"
+    },
+    {
+      "id": "mm4mai6et85vtqv4gsk",
+      "title": "你只需要PostgreSQL——无需再管理7个数据库",
+      "url": "https://youjustneedpostgres.com/",
+      "description": "",
+      "addedAt": "2026-02-27T08:15:27.878Z"
     }
   ],
   "数据": [
