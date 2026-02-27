@@ -279,6 +279,13 @@
       "id": "mm1p3ex0029fk8hgnbh1",
       "title": "Ultralytics YOLO26 - Ultralytics YOLO Docs",
       "url": "https://docs.ultralytics.com/models/yolo26/"
+    },
+    {
+      "id": "mm4kw5f85f2dq8j8pn3",
+      "title": "RayVentura/ShortGPT：🚀🎬 ShortGPT - 用于 YouTube Shorts / TikTok 频道自动化的实验性 AI 框架",
+      "url": "https://github.com/RayVentura/ShortGPT",
+      "description": "TikTok 频道自动化的实验性 AI 框架",
+      "addedAt": "2026-02-27T07:36:18.548Z"
     }
   ],
   "UI": [
@@ -809,11 +816,11 @@
       "url": "https://github.com/remotion-dev/remotion"
     },
     {
+      "addedAt": "2026-02-27T07:30:44.933Z",
+      "description": "Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组",
       "id": "mm4kp005xkty2wp8aw",
       "title": "Huanshere/VideoLingo: Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组",
-      "url": "https://github.com/Huanshere/VideoLingo",
-      "description": "Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组",
-      "addedAt": "2026-02-27T07:30:44.933Z"
+      "url": "https://github.com/Huanshere/VideoLingo"
     }
   ],
   "开发": [
