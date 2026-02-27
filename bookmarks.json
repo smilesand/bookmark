@@ -281,11 +281,11 @@
       "url": "https://docs.ultralytics.com/models/yolo26/"
     },
     {
+      "addedAt": "2026-02-27T07:36:18.548Z",
+      "description": "TikTok 频道自动化的实验性 AI 框架",
       "id": "mm4kw5f85f2dq8j8pn3",
       "title": "RayVentura/ShortGPT：🚀🎬 ShortGPT - 用于 YouTube Shorts / TikTok 频道自动化的实验性 AI 框架",
-      "url": "https://github.com/RayVentura/ShortGPT",
-      "description": "TikTok 频道自动化的实验性 AI 框架",
-      "addedAt": "2026-02-27T07:36:18.548Z"
+      "url": "https://github.com/RayVentura/ShortGPT"
     }
   ],
   "UI": [
@@ -821,6 +821,13 @@
       "id": "mm4kp005xkty2wp8aw",
       "title": "Huanshere/VideoLingo: Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组",
       "url": "https://github.com/Huanshere/VideoLingo"
+    },
+    {
+      "id": "mm4l2y3mcwbsf1wgf4",
+      "title": "首页 | ElevenLabs",
+      "url": "https://elevenlabs.io/app/home",
+      "description": "ElevenLabs：免费人工智能语音生成器和语音代理平台",
+      "addedAt": "2026-02-27T07:41:35.650Z"
     }
   ],
   "开发": [
