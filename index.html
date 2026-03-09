@@ -4,320 +4,876 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>咪豆猫书签管理器</title>
+    <title>咪豆猫书签导航 | AI、开发与设计资源高效聚合</title>
+    <meta name="description" content="咪豆猫书签导航聚合 AI、开发、设计、学习与效率工具，提供更快的搜索、更清晰的分类浏览和更顺滑的书签发现体验。">
+    <meta name="keywords" content="书签导航,AI工具,开发资源,设计灵感,学习网站,效率工具,网址收藏">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="theme-color" content="#1b2f4d">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="咪豆猫书签导航">
+    <meta property="og:description" content="聚合 AI、开发、设计、学习与效率工具的网站导航。">
     <link href="favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         :root {
-            --primary-color: #4a6fa5;
-            --secondary-color: #166088;
-            --accent-color: #03a9f4;
-            --background-color: #f8f9fa;
-            --card-color: #ffffff;
-            --text-color: #333333;
-            --text-secondary: #666666;
-            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            --border-radius: 8px;
+            --bg: #f4ede4;
+            --bg-accent: #ece0cf;
+            --surface: rgba(255, 255, 255, 0.86);
+            --surface-strong: #fffdf9;
+            --surface-muted: rgba(255, 249, 242, 0.72);
+            --text: #1b2f4d;
+            --text-secondary: #5d6b80;
+            --line: rgba(27, 47, 77, 0.12);
+            --brand: #325583;
+            --brand-strong: #1b2f4d;
+            --accent: #c86d43;
+            --accent-soft: rgba(200, 109, 67, 0.14);
+            --shadow-lg: 0 24px 56px rgba(27, 47, 77, 0.12);
+            --shadow-md: 0 12px 28px rgba(27, 47, 77, 0.09);
+            --shadow-sm: 0 6px 16px rgba(27, 47, 77, 0.06);
+            --radius-xl: 26px;
+            --radius-lg: 18px;
+            --radius-md: 12px;
+            --container: 1480px;
         }
 
         * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
         }
 
         body {
-            background-color: var(--background-color);
-            color: var(--text-color);
-            line-height: 1.6;
+            min-height: 100vh;
+            color: var(--text);
+            font: 15px/1.55 "Noto Sans SC", "Source Han Sans SC", "IBM Plex Sans", "PingFang SC", "Microsoft YaHei", sans-serif;
+            background:
+                radial-gradient(circle at top left, rgba(200, 109, 67, 0.18), transparent 28%),
+                radial-gradient(circle at top right, rgba(50, 85, 131, 0.14), transparent 24%),
+                linear-gradient(180deg, #fbf6ef 0%, var(--bg) 46%, var(--bg-accent) 100%);
         }
 
-        header {
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-            box-shadow: var(--shadow);
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            background-image: linear-gradient(rgba(27, 47, 77, 0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(27, 47, 77, 0.025) 1px, transparent 1px);
+            background-size: 28px 28px;
+            mask-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.5), transparent 78%);
+            opacity: 0.45;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        button,
+        input,
+        select {
+            font: inherit;
+        }
+
+        button {
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+
+        .skip-link {
+            position: absolute;
+            left: 1rem;
+            top: -3rem;
+            z-index: 20;
+            padding: 0.75rem 1rem;
+            border-radius: 999px;
+            background: var(--brand-strong);
+            color: #fff;
+            transition: top 0.2s ease;
+        }
+
+        .skip-link:focus {
+            top: 1rem;
         }
 
         .container {
-            max-width: 1200px;
+            width: min(calc(100% - 1.5rem), var(--container));
             margin: 0 auto;
-            padding: 2rem 1rem;
         }
 
-        .search-container {
+        .site-header {
+            padding: 0.9rem 0 0.7rem;
+        }
+
+        .topbar {
             display: flex;
-            margin-bottom: 2rem;
-            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            padding: 0.95rem 1.1rem;
+            border: 1px solid rgba(255, 255, 255, 0.55);
+            border-radius: var(--radius-xl);
+            background: rgba(255, 255, 255, 0.78);
+            box-shadow: var(--shadow-md);
+            backdrop-filter: blur(16px);
         }
 
-        .search-container input {
-            width: 60%;
-            padding: 0.8rem 1rem;
-            border: 1px solid #ddd;
-            border-radius: var(--border-radius) 0 0 var(--border-radius);
-            font-size: 1rem;
+        .topbar-copy {
+            display: flex;
+            align-items: center;
+            gap: 0.9rem;
+            min-width: 0;
+        }
+
+        .topbar-tag {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.36rem 0.7rem;
+            border: 1px solid rgba(50, 85, 131, 0.12);
+            border-radius: 999px;
+            background: rgba(50, 85, 131, 0.08);
+            color: var(--brand-strong);
+            font-size: 0.8rem;
+            white-space: nowrap;
+        }
+
+        .topbar-title h1 {
+            font-size: 1.15rem;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+        }
+
+        .topbar-title p {
+            margin-top: 0.16rem;
+            color: var(--text-secondary);
+            font-size: 0.88rem;
+        }
+
+        .topbar-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .topbar-stats {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 0.65rem;
+            min-width: min(520px, 100%);
+        }
+
+        .secondary-link,
+        .chip-button,
+        .filter-chip,
+        .category-link,
+        .text-button,
+        .sort-control select {
+            border: 1px solid var(--line);
+            background: rgba(255, 255, 255, 0.92);
+            color: var(--text);
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.18s ease, background-color 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+        }
+
+        .secondary-link,
+        .chip-button,
+        .filter-chip,
+        .category-link,
+        .text-button {
+            border-radius: 999px;
+        }
+
+        .secondary-link,
+        .chip-button,
+        .text-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            min-height: 40px;
+            padding: 0.62rem 0.95rem;
+        }
+
+        .secondary-link:hover,
+        .chip-button:hover,
+        .filter-chip:hover,
+        .category-link:hover,
+        .text-button:hover,
+        .bookmark-action:hover {
+            transform: translateY(-1px);
+        }
+
+        .stat-card {
+            padding: 0.75rem 0.85rem;
+            border: 1px solid rgba(50, 85, 131, 0.08);
+            border-radius: 16px;
+            background: rgba(255, 252, 248, 0.86);
+        }
+
+        .stat-value {
+            display: block;
+            font-size: 1.14rem;
+            font-weight: 700;
+        }
+
+        .stat-label {
+            display: block;
+            margin-top: 0.15rem;
+            color: var(--text-secondary);
+            font-size: 0.78rem;
+        }
+
+        .page-main {
+            padding-bottom: 4.2rem;
+        }
+
+        .toolbar {
+            margin-top: 0.9rem;
+            padding: 0.95rem;
+            border: 1px solid rgba(255, 255, 255, 0.45);
+            border-radius: var(--radius-xl);
+            background: var(--surface);
+            backdrop-filter: blur(18px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .toolbar-top {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .search-shell {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            flex: 1;
+            padding: 0.5rem 0.62rem 0.5rem 0.9rem;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72);
+        }
+
+        .search-shell:focus-within {
+            border-color: rgba(50, 85, 131, 0.35);
+            box-shadow: 0 0 0 4px rgba(50, 85, 131, 0.12);
+        }
+
+        .search-icon {
+            color: var(--text-secondary);
+            font-size: 0.96rem;
+        }
+
+        .search-shell input {
+            flex: 1;
+            min-width: 0;
+            border: none;
+            outline: none;
+            background: transparent;
+            color: var(--text);
+            font-size: 0.92rem;
+        }
+
+        .toolbar-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .sort-control {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            color: var(--text-secondary);
+            font-size: 0.88rem;
+        }
+
+        .sort-control select {
+            min-height: 40px;
+            padding: 0.65rem 0.85rem;
+            border-radius: 999px;
             outline: none;
         }
 
-        .search-container button {
-            padding: 0.8rem 1.5rem;
-            background-color: var(--accent-color);
-            color: white;
-            border: none;
-            border-radius: 0 var(--border-radius) var(--border-radius) 0;
-            cursor: pointer;
-            font-size: 1rem;
-            transition: background-color 0.3s;
+        .toolbar-hint {
+            margin-top: 0.7rem;
+            color: var(--text-secondary);
+            font-size: 0.86rem;
         }
 
-        .search-container button:hover {
-            background-color: #0288d1;
-        }
-
-        .category-section {
-            margin-bottom: 3rem;
-            scroll-margin-top: 2rem;
-        }
-
-        .category-header {
-            display: flex;
-            align-items: center;
-            border-bottom: 2px solid var(--primary-color);
-            padding-bottom: 0.5rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .category-header h2 {
-            font-size: 1.5rem;
-            color: var(--primary-color);
-        }
-
-        .category-header .count {
-            background-color: var(--accent-color);
-            color: white;
-            font-size: 0.8rem;
-            padding: 0.2rem 0.6rem;
-            border-radius: 12px;
-            margin-left: 1rem;
-        }
-
-        .bookmarks-grid {
+        .app-shell {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.5rem;
+            grid-template-columns: 340px minmax(0, 1fr);
+            gap: 1.35rem;
+            margin-top: 1rem;
+            align-items: start;
+        }
+
+        .sidebar {
+            position: sticky;
+            top: 0.9rem;
+            display: grid;
+            gap: 1rem;
+        }
+
+        .sidebar-card,
+        .content-panel,
+        .overview-card,
+        .bookmark-card,
+        .loading-card,
+        .empty-state {
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: var(--radius-xl);
+            background: var(--surface);
+            backdrop-filter: blur(16px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .sidebar-card {
+            padding: 1rem;
+        }
+
+        .sidebar-card h2 {
+            font-size: 0.95rem;
+        }
+
+        .sidebar-card p {
+            margin-top: 0.32rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .category-nav,
+        .featured-list,
+        .quick-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.65rem;
+            margin-top: 0.85rem;
+        }
+
+        .category-link,
+        .filter-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            padding: 0.54rem 0.82rem;
+            font-size: 0.84rem;
+        }
+
+        .category-link.active,
+        .filter-chip.active,
+        .chip-button.active,
+        .text-button.active {
+            background: var(--brand-strong);
+            color: #fff;
+            border-color: transparent;
+            box-shadow: 0 14px 24px rgba(27, 47, 77, 0.18);
+        }
+
+        .sidebar-search {
+            margin-top: 0.9rem;
+        }
+
+        .sidebar-search .search-shell {
+            padding-left: 0.82rem;
+        }
+
+        .content-panel {
+            min-height: 60vh;
+            padding: 1.15rem 1.25rem;
+        }
+
+        .results-header {
+            display: flex;
+            gap: 1rem;
+            justify-content: space-between;
+            align-items: end;
+        }
+
+        .eyebrow {
+            color: var(--brand);
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+
+        .results-header h2 {
+            margin-top: 0.24rem;
+            font-size: clamp(1.18rem, 1.7vw, 1.65rem);
+            line-height: 1.1;
+        }
+
+        .result-meta {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            gap: 0.75rem;
+            align-items: center;
+            color: var(--text-secondary);
+            text-align: right;
+            font-size: 0.86rem;
+        }
+
+        .content-area {
+            margin-top: 1rem;
+        }
+
+        .overview-grid,
+        .bookmark-grid {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .overview-grid {
+            grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        }
+
+        .bookmark-grid {
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .overview-card,
+        .bookmark-card {
+            content-visibility: auto;
+            contain-intrinsic-size: 260px;
+        }
+
+        .overview-card {
+            display: flex;
+            flex-direction: column;
+            gap: 0.9rem;
+            padding: 1rem;
+        }
+
+        .overview-card header,
+        .bookmark-card header {
+            display: flex;
+            justify-content: space-between;
+            gap: 0.8rem;
+            align-items: start;
+        }
+
+        .overview-card h3,
+        .bookmark-card h3 {
+            font-size: 0.97rem;
+            line-height: 1.35;
+        }
+
+        .count-badge,
+        .domain-badge,
+        .category-badge,
+        .meta-badge {
+            display: inline-flex;
+            align-items: center;
+            min-height: 28px;
+            padding: 0.28rem 0.66rem;
+            border-radius: 999px;
+            font-size: 0.76rem;
+            white-space: nowrap;
+        }
+
+        .count-badge,
+        .category-badge {
+            background: rgba(50, 85, 131, 0.1);
+            color: var(--brand-strong);
+        }
+
+        .domain-badge,
+        .meta-badge {
+            background: rgba(27, 47, 77, 0.08);
+            color: var(--text-secondary);
+        }
+
+        .overview-summary,
+        .bookmark-description,
+        .bookmark-meta {
+            color: var(--text-secondary);
+        }
+
+        .overview-summary,
+        .bookmark-description {
+            font-size: 0.87rem;
+        }
+
+        .overview-preview {
+            display: grid;
+            gap: 0.58rem;
+        }
+
+        .preview-link {
+            display: block;
+            padding: 0.72rem 0.85rem;
+            border-radius: var(--radius-md);
+            background: var(--surface-muted);
+            border: 1px solid rgba(27, 47, 77, 0.06);
+        }
+
+        .preview-link strong {
+            display: block;
+            color: var(--text);
+            font-size: 0.86rem;
+        }
+
+        .preview-link span {
+            display: block;
+            margin-top: 0.1rem;
+            color: var(--text-secondary);
+            font-size: 0.76rem;
+        }
+
+        .overview-footer,
+        .bookmark-footer {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) auto;
+            gap: 0.7rem;
+            align-items: end;
         }
 
         .bookmark-card {
-            background-color: var(--card-color);
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow);
-            padding: 1.5rem;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .bookmark-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .bookmark-card h3 {
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .bookmark-card p {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            margin-bottom: 1rem;
-            height: 2.8rem;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-        }
-
-        .bookmark-card a {
-            display: inline-block;
-            background-color: var(--primary-color);
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: var(--border-radius);
-            text-decoration: none;
-            font-weight: 500;
-            transition: background-color 0.3s;
-        }
-
-        .bookmark-card a:hover {
-            background-color: var(--secondary-color);
-        }
-
-        .category-nav {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.95);
-            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
-            padding: 1rem 0;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow-x: auto;
-            z-index: 100;
-            backdrop-filter: blur(10px);
+            flex-direction: column;
+            gap: 0.85rem;
+            padding: 1rem;
         }
 
-        .category-nav::-webkit-scrollbar {
-            height: 4px;
+        .bookmark-card a.bookmark-title {
+            color: var(--text);
         }
 
-        .category-nav::-webkit-scrollbar-thumb {
-            background-color: var(--primary-color);
-            border-radius: 4px;
+        .bookmark-card a.bookmark-title:hover {
+            color: var(--brand);
         }
 
-        .category-nav button {
-            background: none;
+        .bookmark-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            font-size: 0.75rem;
+        }
+
+        .bookmark-footer {
+            margin-top: auto;
+        }
+
+        .bookmark-action {
+            min-height: auto;
+            padding: 0;
             border: none;
-            padding: 0.5rem 1rem;
-            margin: 0 0.5rem;
-            cursor: pointer;
-            color: var(--text-color);
-            font-weight: 500;
-            font-size: 0.9rem;
-            white-space: nowrap;
-            border-radius: 20px;
-            transition: all 0.3s;
+            border-radius: 0;
+            background: transparent;
+            box-shadow: none;
+            color: var(--accent);
+            text-decoration: underline;
+            text-underline-offset: 0.2rem;
+            font-size: 0.83rem;
+            font-weight: 600;
         }
 
-        .category-nav button.active,
-        .category-nav button:hover {
-            background-color: var(--primary-color);
-            color: white;
+        .loading-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1rem;
         }
 
-        .add-bookmark {
-            position: fixed;
-            bottom: 5rem;
-            right: 2rem;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            background-color: var(--accent-color);
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 2rem;
-            box-shadow: var(--shadow);
-            cursor: pointer;
-            transition: transform 0.3s, background-color 0.3s;
-            z-index: 101;
+        .loading-card {
+            min-height: 220px;
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.58) 0%, rgba(255, 255, 255, 0.92) 48%, rgba(255, 255, 255, 0.58) 100%);
+            background-size: 220% 100%;
+            animation: shimmer 1.8s linear infinite;
         }
 
-        .add-bookmark:hover {
-            transform: scale(1.1);
-            background-color: #0288d1;
+        @keyframes shimmer {
+            from {
+                background-position: 100% 0;
+            }
+
+            to {
+                background-position: -100% 0;
+            }
         }
 
         .empty-state {
+            padding: 2rem;
             text-align: center;
-            padding: 3rem 0;
+        }
+
+        .empty-state h3 {
+            font-size: 1.18rem;
+        }
+
+        .empty-state p {
+            margin-top: 0.5rem;
             color: var(--text-secondary);
+            font-size: 0.88rem;
         }
 
-        .empty-state i {
-            font-size: 4rem;
-            margin-bottom: 1rem;
-            color: #ddd;
+        .match-mark {
+            padding: 0 0.15rem;
+            border-radius: 0.35rem;
+            background: rgba(200, 109, 67, 0.18);
+            color: inherit;
         }
 
-        .github-star {
-            position: fixed;
-            top: 1rem;
-            right: 1rem;
-            background-color: var(--card-color);
-            color: var(--text-color);
-            padding: 0.5rem 1rem;
-            border-radius: var(--border-radius);
-            text-decoration: none;
+        .feed-footer {
             display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            box-shadow: var(--shadow);
-            transition: transform 0.3s, background-color 0.3s;
-            z-index: 1000;
+            justify-content: center;
+            margin-top: 1rem;
         }
 
-        .github-star:hover {
-            transform: translateY(-2px);
-            background-color: #f0f0f0;
+        .feed-status {
+            color: var(--text-secondary);
+            font-size: 0.84rem;
         }
 
-        @media (max-width: 768px) {
-            .search-container input {
-                width: 70%;
+        .feed-status strong {
+            color: var(--text);
+        }
+
+        .back-to-top {
+            position: fixed;
+            right: 1.2rem;
+            bottom: 1.2rem;
+            z-index: 10;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--brand-strong);
+            color: #fff;
+            box-shadow: 0 16px 30px rgba(27, 47, 77, 0.22);
+        }
+
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        @media (max-width: 1200px) {
+            .topbar {
+                flex-direction: column;
+                align-items: stretch;
             }
 
-            .bookmarks-grid {
+            .topbar-stats {
+                min-width: 0;
+            }
+
+            .app-shell {
                 grid-template-columns: 1fr;
             }
 
-            .category-nav {
-                padding: 0.8rem 0;
+            .sidebar {
+                position: static;
+            }
+        }
+
+        @media (max-width: 720px) {
+            .container {
+                width: min(calc(100% - 1rem), var(--container));
             }
 
-            .category-nav button {
-                padding: 0.4rem 0.8rem;
-                font-size: 0.8rem;
+            .toolbar-top,
+            .results-header {
+                flex-direction: column;
+                align-items: stretch;
             }
 
-            .add-bookmark {
-                width: 50px;
-                height: 50px;
-                bottom: 4.5rem;
-                right: 1rem;
+            .toolbar-actions {
+                width: 100%;
+                flex-wrap: wrap;
             }
 
-            .github-star {
-                top: 0.5rem;
-                right: 0.5rem;
-                padding: 0.4rem 0.8rem;
-                font-size: 0.9rem;
+            .toolbar-actions>* {
+                flex: 1 1 180px;
+            }
+
+            .topbar-actions,
+            .category-nav,
+            .featured-list,
+            .quick-filters {
+                overflow-x: auto;
+                flex-wrap: nowrap;
+                padding-bottom: 0.25rem;
+                scrollbar-width: thin;
+            }
+
+            .topbar-stats {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .content-panel,
+            .toolbar,
+            .sidebar-card,
+            .overview-card,
+            .bookmark-card {
+                border-radius: 22px;
+            }
+
+            .overview-footer,
+            .bookmark-footer {
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .bookmark-action {
+                align-self: flex-end;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+
+            *,
+            *::before,
+            *::after {
+                animation: none !important;
+                transition: none !important;
             }
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <h1>咪豆猫书签管理器</h1>
-        <p>集中管理您的所有网络资源</p>
+    <a class="skip-link" href="#content-panel">跳到主要内容</a>
+
+    <header class="site-header">
+        <div class="container topbar">
+            <div class="topbar-copy">
+                <span class="topbar-tag">咪豆猫书签导航</span>
+                <div class="topbar-title">
+                    <h1>更快找到真正常用的网站资源</h1>
+                    <p>聚合 AI、开发、设计、学习与效率工具。</p>
+                </div>
+            </div>
+            <div class="topbar-actions">
+                <a class="secondary-link" href="https://github.com/smilesand/bookmark" target="_blank" rel="noopener noreferrer" aria-label="查看 GitHub 项目">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M12 .5C5.648.5.5 5.648.5 12c0 5.084 3.292 9.398 7.862 10.92.575.106.785-.25.785-.556 0-.274-.01-1-.016-1.962-3.198.694-3.872-1.541-3.872-1.541-.523-1.328-1.277-1.681-1.277-1.681-1.044-.714.08-.699.08-.699 1.155.081 1.762 1.186 1.762 1.186 1.026 1.757 2.693 1.25 3.35.956.104-.743.402-1.25.73-1.538-2.553-.29-5.238-1.276-5.238-5.68 0-1.255.448-2.281 1.183-3.086-.119-.29-.513-1.46.113-3.043 0 0 .965-.309 3.162 1.179A10.96 10.96 0 0 1 12 6.032c.975.005 1.957.132 2.875.387 2.195-1.488 3.159-1.179 3.159-1.179.628 1.583.234 2.753.115 3.043.737.805 1.182 1.831 1.182 3.086 0 4.415-2.689 5.387-5.252 5.672.413.355.781 1.054.781 2.124 0 1.534-.014 2.771-.014 3.148 0 .308.207.667.79.554C20.21 21.395 23.5 17.083 23.5 12 23.5 5.648 18.352.5 12 .5Z"></path>
+                    </svg>
+                    <span>查看项目</span>
+                </a>
+            </div>
+            <div class="topbar-stats" aria-label="书签统计">
+                <article class="stat-card">
+                    <span class="stat-value" id="stat-bookmarks">0</span>
+                    <span class="stat-label">总书签数</span>
+                </article>
+                <article class="stat-card">
+                    <span class="stat-value" id="stat-categories">0</span>
+                    <span class="stat-label">分类数量</span>
+                </article>
+                <article class="stat-card">
+                    <span class="stat-value" id="stat-largest">-</span>
+                    <span class="stat-label">最大分类</span>
+                </article>
+                <article class="stat-card">
+                    <span class="stat-value" id="stat-recent">-</span>
+                    <span class="stat-label">最近更新</span>
+                </article>
+            </div>
+        </div>
     </header>
 
-    <a href="https://github.com/smilesand/bookmark" class="github-star" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i>
-        <span>Star</span>
-    </a>
+    <main class="container page-main">
+        <section class="toolbar" aria-label="搜索与筛选">
+            <div class="toolbar-top">
+                <div class="search-shell">
+                    <label class="visually-hidden" for="search-input">搜索书签</label>
+                    <span class="search-icon" aria-hidden="true">⌕</span>
+                    <input type="search" id="search-input" placeholder="搜索分类、标题、描述或域名" autocomplete="off" aria-label="搜索书签">
+                    <button type="button" class="chip-button" id="clear-search" aria-label="清空搜索">清空</button>
+                </div>
+                <div class="toolbar-actions">
+                    <label class="sort-control" for="sort-select">
+                        <span>排序</span>
+                        <select id="sort-select">
+                            <option value="relevance">智能排序</option>
+                            <option value="recent">最近添加</option>
+                            <option value="title">名称 A-Z</option>
+                        </select>
+                    </label>
+                    <button type="button" class="text-button" id="reset-view">查看概览</button>
+                </div>
+            </div>
+            <p class="toolbar-hint" id="search-hint">输入关键词，快速找到相关网站与工具。</p>
+        </section>
 
-    <div class="container">
-        <div class="search-container">
-            <input type="text" id="search-input" placeholder="搜索书签...">
-            <button id="search-button">搜索</button>
+        <div class="app-shell">
+            <aside class="sidebar" aria-label="分类与快捷入口">
+                <section class="sidebar-card">
+                    <h2>分类导航</h2>
+                    <p id="sidebar-summary">正在加载...</p>
+                    <nav class="category-nav" id="category-nav" aria-label="书签分类"></nav>
+                </section>
+                <section class="sidebar-card">
+                    <h2>高频分类</h2>
+                    <p>优先展示书签数量最多的分类，方便快速进入。</p>
+                    <div class="featured-list" id="featured-categories"></div>
+                    <div class="sidebar-search">
+                        <div class="search-shell">
+                            <label class="visually-hidden" for="sidebar-search-input">搜索书签</label>
+                            <span class="search-icon" aria-hidden="true">⌕</span>
+                            <input type="search" id="sidebar-search-input" placeholder="继续搜索" autocomplete="off" aria-label="侧栏搜索书签">
+                        </div>
+                    </div>
+                </section>
+            </aside>
+
+            <section class="content-panel" id="content-panel" aria-live="polite">
+                <header class="results-header">
+                    <div>
+                        <p class="eyebrow" id="view-eyebrow">书签概览</p>
+                        <h2 id="view-title">发现常用资源</h2>
+                    </div>
+                    <div class="result-meta">
+                        <span id="result-count">0 项</span>
+                        <button type="button" class="text-button" id="jump-top">回到顶部</button>
+                    </div>
+                </header>
+                <div class="quick-filters" id="quick-filters" aria-label="快捷筛选"></div>
+                <div class="content-area" id="content-area">
+                    <div class="loading-stack" aria-hidden="true">
+                        <div class="loading-card"></div>
+                        <div class="loading-card"></div>
+                        <div class="loading-card"></div>
+                    </div>
+                </div>
+            </section>
         </div>
+    </main>
 
-        <div id="bookmarks-container">
-            <!-- 书签将通过JavaScript动态加载 -->
-        </div>
-    </div>
+    <button class="back-to-top" id="back-to-top" type="button" aria-label="回到顶部" hidden>↑</button>
 
-    <div class="category-nav" id="category-nav">
-        <!-- 导航按钮将通过JavaScript动态加载 -->
-    </div>
+    <noscript>
+        <div class="container" style="padding-bottom: 2rem; color: var(--text-secondary); font-size: 0.9rem;">当前页面需要 JavaScript 才能加载完整内容。</div>
+    </noscript>
+
+    <script type="application/ld+json" id="structured-data">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "咪豆猫书签导航",
+            "description": "聚合 AI、开发、设计与学习资源的网站导航。",
+            "inLanguage": "zh-CN"
+        }
+    </script>
     <script src="index.js"></script>
 </body>
 
