@@ -1070,11 +1070,11 @@
       "url": "https://github.com/osmandapp/OsmAnd"
     },
     {
+      "addedAt": "2026-02-27T08:15:27.878Z",
+      "description": "",
       "id": "mm4mai6et85vtqv4gsk",
       "title": "你只需要PostgreSQL——无需再管理7个数据库",
-      "url": "https://youjustneedpostgres.com/",
-      "description": "",
-      "addedAt": "2026-02-27T08:15:27.878Z"
+      "url": "https://youjustneedpostgres.com/"
     }
   ],
   "数据": [
@@ -1295,6 +1295,13 @@
       "id": "mlaw8nugbxz98ku3qe8",
       "title": "Windows LTSC Download | MAS",
       "url": "https://massgrave.dev/windows_ltsc_links"
+    },
+    {
+      "id": "mmijmik6cd0cmib9zj5",
+      "title": "tropes.md - 比喻",
+      "url": "https://tropes.fyi/tropes-md",
+      "description": "",
+      "addedAt": "2026-03-09T02:09:35.862Z"
     }
   ],
   "金融": [
