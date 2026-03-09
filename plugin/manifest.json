@@ -11,12 +11,16 @@
             "128": "images/icon128.png"
         }
     },
+    "options_page": "manage.html",
     "permissions": [
         "storage",
         "tabs",
         "activeTab",
         "contextMenus",
         "notifications"
+    ],
+    "host_permissions": [
+        "https://api.github.com/*"
     ],
     "background": {
         "service_worker": "background.js"

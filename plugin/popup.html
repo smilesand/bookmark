@@ -167,11 +167,26 @@
             font-size: 0.7rem;
             margin-left: 0.5rem;
         }
+
+        .toolbar-actions {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .toolbar-actions .btn {
+            width: auto;
+            flex: 1;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>书签管理器</h1>
+
+        <div class="toolbar-actions">
+            <button class="btn btn-secondary" id="open-manage-btn">打开管理页面</button>
+        </div>
         
         <div class="tabs">
             <div class="tab active" data-tab="add">添加书签</div>

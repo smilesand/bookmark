@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // 初始化标签切换功能
     initTabs();
 
+    document.getElementById('open-manage-btn').addEventListener('click', openManagePage);
+
     // 加载设置
     loadSettings();
 
@@ -31,6 +33,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // 设置测试连接按钮事件
     document.getElementById('test-connection-btn').addEventListener('click', testConnection);
 });
+
+function openManagePage() {
+    chrome.runtime.openOptionsPage();
+}
 
 // 初始化标签切换功能
 function initTabs() {

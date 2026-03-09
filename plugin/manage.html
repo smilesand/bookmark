@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>书签管理页面</title>
+    <style>
+        :root {
+            --bg: #f3efe7;
+            --panel: rgba(255, 255, 255, 0.94);
+            --panel-strong: #ffffff;
+            --line: rgba(27, 47, 77, 0.12);
+            --text: #21324a;
+            --text-muted: #617086;
+            --brand: #2f5f8f;
+            --brand-strong: #1d456c;
+            --danger: #b9493e;
+            --success: #2d7a52;
+            --warning: #a56714;
+            --shadow: 0 18px 42px rgba(33, 50, 74, 0.12);
+            --radius-lg: 22px;
+            --radius-md: 14px;
+            --radius-sm: 10px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            color: var(--text);
+            font: 15px/1.5 "Noto Sans SC", "Source Han Sans SC", "Segoe UI", sans-serif;
+            background:
+                radial-gradient(circle at top left, rgba(47, 95, 143, 0.16), transparent 24%),
+                radial-gradient(circle at bottom right, rgba(196, 123, 69, 0.16), transparent 28%),
+                linear-gradient(180deg, #faf7f1 0%, var(--bg) 100%);
+        }
+
+        button,
+        input,
+        textarea,
+        select {
+            font: inherit;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .shell {
+            width: min(1400px, calc(100% - 32px));
+            margin: 24px auto;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 24px 28px;
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            border-radius: 28px;
+            background: rgba(255, 255, 255, 0.78);
+            backdrop-filter: blur(16px);
+            box-shadow: var(--shadow);
+        }
+
+        .hero h1 {
+            margin: 0;
+            font-size: 1.75rem;
+        }
+
+        .hero p {
+            margin: 6px 0 0;
+            color: var(--text-muted);
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 300px minmax(0, 1fr);
+            gap: 18px;
+            margin-top: 18px;
+        }
+
+        .panel {
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            border-radius: var(--radius-lg);
+            background: var(--panel);
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(14px);
+        }
+
+        .sidebar,
+        .content {
+            padding: 20px;
+        }
+
+        .section-title {
+            margin: 0 0 12px;
+            font-size: 1rem;
+        }
+
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px;
+            margin-bottom: 18px;
+        }
+
+        .stat {
+            padding: 14px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius-md);
+            background: rgba(255, 255, 255, 0.78);
+        }
+
+        .stat strong {
+            display: block;
+            font-size: 1.15rem;
+        }
+
+        .stat span {
+            color: var(--text-muted);
+            font-size: 0.86rem;
+        }
+
+        .category-list {
+            display: grid;
+            gap: 10px;
+            max-height: 420px;
+            overflow: auto;
+            padding-right: 4px;
+        }
+
+        .category-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            width: 100%;
+            padding: 12px 14px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius-md);
+            background: rgba(255, 255, 255, 0.8);
+            color: var(--text);
+            text-align: left;
+            transition: border-color 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .category-item.active {
+            border-color: rgba(47, 95, 143, 0.5);
+            background: rgba(47, 95, 143, 0.1);
+        }
+
+        .category-item:hover {
+            transform: translateY(-1px);
+        }
+
+        .category-item small {
+            color: var(--text-muted);
+        }
+
+        .stack,
+        .actions,
+        .bookmark-actions,
+        .bookmark-meta,
+        .toolbar,
+        .inline-form {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .stack {
+            flex-direction: column;
+        }
+
+        .field {
+            display: grid;
+            gap: 6px;
+        }
+
+        .field label {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+        }
+
+        .field input,
+        .field textarea,
+        .field select {
+            width: 100%;
+            padding: 11px 12px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius-sm);
+            background: rgba(255, 255, 255, 0.92);
+            color: var(--text);
+        }
+
+        .field textarea {
+            min-height: 92px;
+            resize: vertical;
+        }
+
+        .btn {
+            padding: 11px 16px;
+            border: 1px solid transparent;
+            border-radius: 999px;
+            background: var(--brand);
+            color: #fff;
+        }
+
+        .btn.secondary {
+            border-color: var(--line);
+            background: rgba(255, 255, 255, 0.9);
+            color: var(--text);
+        }
+
+        .btn.danger {
+            background: var(--danger);
+        }
+
+        .btn.ghost {
+            border-color: rgba(47, 95, 143, 0.2);
+            background: rgba(47, 95, 143, 0.08);
+            color: var(--brand-strong);
+        }
+
+        .status {
+            margin-top: 14px;
+            padding: 12px 14px;
+            border-radius: var(--radius-md);
+            display: none;
+        }
+
+        .status.success,
+        .status.error,
+        .status.loading,
+        .status.warning {
+            display: block;
+        }
+
+        .status.success {
+            background: rgba(45, 122, 82, 0.14);
+            color: var(--success);
+        }
+
+        .status.error {
+            background: rgba(185, 73, 62, 0.14);
+            color: var(--danger);
+        }
+
+        .status.loading,
+        .status.warning {
+            background: rgba(165, 103, 20, 0.14);
+            color: var(--warning);
+        }
+
+        .toolbar {
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .toolbar h2 {
+            margin: 0;
+            font-size: 1.25rem;
+        }
+
+        .toolbar p {
+            margin: 4px 0 0;
+            color: var(--text-muted);
+        }
+
+        .editor-grid {
+            display: grid;
+            gap: 16px;
+        }
+
+        .card {
+            padding: 18px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius-md);
+            background: rgba(255, 255, 255, 0.86);
+        }
+
+        .card h3 {
+            margin: 0 0 12px;
+            font-size: 1rem;
+        }
+
+        .bookmark-list {
+            display: grid;
+            gap: 14px;
+        }
+
+        .bookmark-card {
+            padding: 16px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius-md);
+            background: var(--panel-strong);
+        }
+
+        .bookmark-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+        }
+
+        .bookmark-grid .full {
+            grid-column: 1 / -1;
+        }
+
+        .bookmark-meta {
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            color: var(--text-muted);
+            font-size: 0.84rem;
+        }
+
+        .duplicate-panel {
+            display: grid;
+            gap: 14px;
+        }
+
+        .duplicate-summary {
+            color: var(--text-muted);
+        }
+
+        .duplicate-group {
+            padding: 16px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius-md);
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        .duplicate-group header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .duplicate-group strong {
+            display: block;
+            word-break: break-all;
+        }
+
+        .duplicate-group small {
+            color: var(--text-muted);
+        }
+
+        .duplicate-items {
+            display: grid;
+            gap: 10px;
+        }
+
+        .duplicate-item {
+            padding: 12px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--line);
+            background: rgba(243, 239, 231, 0.6);
+        }
+
+        .duplicate-item.keep {
+            border-color: rgba(45, 122, 82, 0.28);
+            background: rgba(45, 122, 82, 0.08);
+        }
+
+        .duplicate-item p {
+            margin: 4px 0 0;
+            color: var(--text-muted);
+            word-break: break-all;
+        }
+
+        .empty {
+            padding: 28px;
+            border: 1px dashed rgba(27, 47, 77, 0.2);
+            border-radius: var(--radius-md);
+            text-align: center;
+            color: var(--text-muted);
+            background: rgba(255, 255, 255, 0.55);
+        }
+
+        .dirty-flag {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 7px 12px;
+            border-radius: 999px;
+            background: rgba(165, 103, 20, 0.14);
+            color: var(--warning);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 960px) {
+            .layout {
+                grid-template-columns: 1fr;
+            }
+
+            .hero,
+            .toolbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .hero-actions {
+                width: 100%;
+                justify-content: flex-start;
+            }
+
+            .bookmark-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="shell">
+        <section class="hero panel">
+            <div>
+                <h1>书签管理页面</h1>
+                <p>在插件内部统一维护分类与书签内容，并使用插件中保存的 GitHub 配置提交更新。</p>
+            </div>
+            <div class="hero-actions">
+                <button class="btn secondary" id="reload-btn">从 GitHub 刷新</button>
+                <button class="btn" id="save-btn">提交到 GitHub</button>
+            </div>
+        </section>
+
+        <div class="layout">
+            <aside class="panel sidebar">
+                <div class="summary">
+                    <div class="stat">
+                        <strong id="total-categories">0</strong>
+                        <span>分类数量</span>
+                    </div>
+                    <div class="stat">
+                        <strong id="total-bookmarks">0</strong>
+                        <span>书签数量</span>
+                    </div>
+                </div>
+
+                <div class="stack">
+                    <div>
+                        <h2 class="section-title">分类</h2>
+                        <div class="category-list" id="category-list"></div>
+                    </div>
+
+                    <div class="card">
+                        <h3>新增分类</h3>
+                        <div class="inline-form">
+                            <input type="text" id="new-category-input" placeholder="输入分类名称">
+                            <button class="btn ghost" id="add-category-btn">添加分类</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="status" id="status"></div>
+            </aside>
+
+            <main class="panel content">
+                <div class="toolbar">
+                    <div>
+                        <h2 id="editor-title">选择一个分类</h2>
+                        <p id="editor-subtitle">管理当前分类下的书签内容、移动分类并同步到 GitHub。</p>
+                    </div>
+                    <div class="actions">
+                        <span class="dirty-flag" id="dirty-flag" hidden>有未提交修改</span>
+                        <button class="btn secondary" id="rename-category-btn">重命名分类</button>
+                        <button class="btn danger" id="delete-category-btn">删除分类</button>
+                    </div>
+                </div>
+
+                <div class="editor-grid">
+                    <section class="card">
+                        <h3>新增书签</h3>
+                        <div class="bookmark-grid">
+                            <div class="field">
+                                <label for="bookmark-title">标题</label>
+                                <input type="text" id="bookmark-title" placeholder="例如：GitHub">
+                            </div>
+                            <div class="field">
+                                <label for="bookmark-url">地址</label>
+                                <input type="url" id="bookmark-url" placeholder="https://example.com">
+                            </div>
+                            <div class="field full">
+                                <label for="bookmark-description">描述</label>
+                                <textarea id="bookmark-description" placeholder="简短说明这个书签的用途"></textarea>
+                            </div>
+                            <div class="actions full">
+                                <button class="btn ghost" id="add-bookmark-btn">添加到当前分类</button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card">
+                        <h3>当前分类书签</h3>
+                        <div class="bookmark-list" id="bookmark-list"></div>
+                    </section>
+
+                    <section class="card duplicate-panel">
+                        <div class="toolbar">
+                            <div>
+                                <h3>去重检测</h3>
+                                <p class="duplicate-summary" id="duplicate-summary">点击按钮扫描重复 URL，默认保留每组中的第一条记录。</p>
+                            </div>
+                            <div class="actions">
+                                <button class="btn secondary" id="scan-duplicates-btn">开始扫描</button>
+                                <button class="btn danger" id="clear-duplicates-btn">删除全部重复项</button>
+                            </div>
+                        </div>
+                        <div class="bookmark-list" id="duplicate-list"></div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="manage.js"></script>
+</body>
+</html>
