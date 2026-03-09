@@ -1112,6 +1112,13 @@
       "id": "m8io79vk3p5slpwscst",
       "title": "RSSHub",
       "url": "https://docs.rsshub.app/zh/"
+    },
+    {
+      "id": "mmijo2tlf3mbua5hfu5",
+      "title": "tropes.md - 比喻",
+      "url": "https://tropes.fyi/tropes-md",
+      "description": "一个包含所有已编目的AI写作套路的文件。将其添加到你的AI系统提示符中，以帮助它避免这些模式（让我们玩猫捉老鼠的游戏吧！）。",
+      "addedAt": "2026-03-09T02:10:48.777Z"
     }
   ],
   "新闻": [
@@ -1297,11 +1304,11 @@
       "url": "https://massgrave.dev/windows_ltsc_links"
     },
     {
+      "addedAt": "2026-03-09T02:09:35.862Z",
+      "description": "",
       "id": "mmijmik6cd0cmib9zj5",
       "title": "tropes.md - 比喻",
-      "url": "https://tropes.fyi/tropes-md",
-      "description": "",
-      "addedAt": "2026-03-09T02:09:35.862Z"
+      "url": "https://tropes.fyi/tropes-md"
     }
   ],
   "金融": [
