@@ -279,6 +279,13 @@
       "id": "mm4kw5f85f2dq8j8pn3",
       "title": "RayVentura/ShortGPT：🚀🎬 ShortGPT - 用于 YouTube Shorts / TikTok 频道自动化的实验性 AI 框架",
       "url": "https://github.com/RayVentura/ShortGPT"
+    },
+    {
+      "id": "mmkdk3v2bvo0ee70brh",
+      "title": "666ghj/MiroFish: A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "url": "https://github.com/666ghj/MiroFish?tab=readme-ov-file",
+      "description": "简洁通用的群体智能引擎，预测万物",
+      "addedAt": "2026-03-10T08:55:18.158Z"
     }
   ],
   "UI": [
@@ -1102,11 +1109,11 @@
       "url": "https://news.ycombinator.com/news"
     },
     {
+      "addedAt": "2026-03-09T02:43:01.636Z",
+      "description": "",
       "id": "mmikti84prn62b1a0wg",
       "title": "📰 Hacker News 日报",
-      "url": "https://news.midoumao.com/",
-      "description": "",
-      "addedAt": "2026-03-09T02:43:01.636Z"
+      "url": "https://news.midoumao.com/"
     }
   ],
   "游戏": [
