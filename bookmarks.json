@@ -1063,11 +1063,18 @@
       "url": "https://youjustneedpostgres.com/"
     },
     {
+      "addedAt": "2026-03-16T05:38:38.454Z",
+      "description": "云原生高性能边缘/中间/服务代理",
       "id": "mmsr6b5i68xzq09eaks",
       "title": "envoyproxy/envoy",
-      "url": "https://github.com/envoyproxy/envoy",
-      "description": "云原生高性能边缘/中间/服务代理",
-      "addedAt": "2026-03-16T05:38:38.454Z"
+      "url": "https://github.com/envoyproxy/envoy"
+    },
+    {
+      "id": "mmvt3zfnud8zjd0y609",
+      "title": "Cloud Run | Google Cloud",
+      "url": "https://cloud.google.com/run",
+      "description": "在全托管式平台上快速构建应用或网站\n您无需管理基础设施，即可运行前端和后端服务、批量作业、托管 LLM，以及将处理工作负载排入队列。\n\n可享每月前 200 万个请求免费。",
+      "addedAt": "2026-03-18T08:56:07.715Z"
     }
   ],
   "数据": [
