@@ -1077,11 +1077,11 @@
       "url": "https://cloud.google.com/run"
     },
     {
+      "addedAt": "2026-03-26T09:44:51.139Z",
+      "description": "",
       "id": "mn7adghvlltugna8b7",
       "title": "ntfy.sh | 通过 PUT/POST 向您的手机发送推送通知",
-      "url": "https://ntfy.sh/",
-      "description": "",
-      "addedAt": "2026-03-26T09:44:51.139Z"
+      "url": "https://ntfy.sh/"
     }
   ],
   "数据": [
@@ -1339,6 +1339,15 @@
       "id": "mkkwwqyx61kgrwhfwvl",
       "title": "nautechsystems/nautilus_trader：高性能算法交易平台和事件驱动型回测器",
       "url": "https://github.com/nautechsystems/nautilus_trader"
+    }
+  ],
+  "量化": [
+    {
+      "id": "mn7h85rheptj099ig9m",
+      "title": "回测 - Quant Wiki 中文量化百科",
+      "url": "https://quant-wiki.com/basic/quant/%E5%9B%9E%E6%B5%8B_Backtesting/",
+      "description": "",
+      "addedAt": "2026-03-26T12:56:41.261Z"
     }
   ]
 }
