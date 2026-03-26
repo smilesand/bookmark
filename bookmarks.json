@@ -1325,6 +1325,22 @@
       "url": "https://tropes.fyi/tropes-md"
     }
   ],
+  "量化": [
+    {
+      "addedAt": "2026-03-26T12:56:41.261Z",
+      "description": "",
+      "id": "mn7h85rheptj099ig9m",
+      "title": "回测 - Quant Wiki 中文量化百科",
+      "url": "https://quant-wiki.com/basic/quant/%E5%9B%9E%E6%B5%8B_Backtesting/"
+    },
+    {
+      "id": "mn7hclbnpevmqb1vzmn",
+      "title": "首页 - JoinQuant",
+      "url": "https://www.joinquant.com/view/user/floor?type=mainFloor",
+      "description": "",
+      "addedAt": "2026-03-26T13:00:08.051Z"
+    }
+  ],
   "金融": [
     {
       "addedAt": "2025-03-21T09:43:33.254Z",
@@ -1339,15 +1355,6 @@
       "id": "mkkwwqyx61kgrwhfwvl",
       "title": "nautechsystems/nautilus_trader：高性能算法交易平台和事件驱动型回测器",
       "url": "https://github.com/nautechsystems/nautilus_trader"
-    }
-  ],
-  "量化": [
-    {
-      "id": "mn7h85rheptj099ig9m",
-      "title": "回测 - Quant Wiki 中文量化百科",
-      "url": "https://quant-wiki.com/basic/quant/%E5%9B%9E%E6%B5%8B_Backtesting/",
-      "description": "",
-      "addedAt": "2026-03-26T12:56:41.261Z"
     }
   ]
 }
