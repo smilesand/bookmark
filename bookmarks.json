@@ -453,6 +453,13 @@
       "id": "ml831x4gmyz9haz8ctk",
       "title": "设备流 (Device flow) 是什么？ · Auth Wiki",
       "url": "https://auth-wiki.logto.io/zh/device-flow"
+    },
+    {
+      "id": "mnbt7u8t7oxrc9035zj",
+      "title": "18.06 Linear Algebra",
+      "url": "https://web.mit.edu/18.06/www/",
+      "description": "",
+      "addedAt": "2026-03-29T13:43:26.429Z"
     }
   ],
   "工作": [
@@ -1334,11 +1341,11 @@
       "url": "https://quant-wiki.com/basic/quant/%E5%9B%9E%E6%B5%8B_Backtesting/"
     },
     {
+      "addedAt": "2026-03-26T13:00:08.051Z",
+      "description": "",
       "id": "mn7hclbnpevmqb1vzmn",
       "title": "首页 - JoinQuant",
-      "url": "https://www.joinquant.com/view/user/floor?type=mainFloor",
-      "description": "",
-      "addedAt": "2026-03-26T13:00:08.051Z"
+      "url": "https://www.joinquant.com/view/user/floor?type=mainFloor"
     }
   ],
   "金融": [
