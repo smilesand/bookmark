@@ -286,6 +286,13 @@
       "id": "mmkdk3v2bvo0ee70brh",
       "title": "666ghj/MiroFish: A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
       "url": "https://github.com/666ghj/MiroFish?tab=readme-ov-file"
+    },
+    {
+      "id": "mndxdqifok6y8vdwqho",
+      "title": "chenglou/pretext",
+      "url": "https://github.com/chenglou/pretext",
+      "description": "纯 JavaScript/TypeScript 库，用于多行文本测量和布局。速度快、精度高，并且支持许多你可能都不知道的语言。支持渲染到 DOM、Canvas、SVG，不久还将支持服务器端渲染。",
+      "addedAt": "2026-03-31T01:15:32.343Z"
     }
   ],
   "UI": [
@@ -455,11 +462,11 @@
       "url": "https://auth-wiki.logto.io/zh/device-flow"
     },
     {
+      "addedAt": "2026-03-29T13:43:26.429Z",
+      "description": "",
       "id": "mnbt7u8t7oxrc9035zj",
       "title": "18.06 Linear Algebra",
-      "url": "https://web.mit.edu/18.06/www/",
-      "description": "",
-      "addedAt": "2026-03-29T13:43:26.429Z"
+      "url": "https://web.mit.edu/18.06/www/"
     }
   ],
   "工作": [
