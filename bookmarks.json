@@ -460,6 +460,13 @@
       "id": "mnbt7u8t7oxrc9035zj",
       "title": "18.06 Linear Algebra",
       "url": "https://web.mit.edu/18.06/www/"
+    },
+    {
+      "id": "mnee6l2lk98at3cv64g",
+      "title": "3Blue1Brown - 3Blue1Brown",
+      "url": "https://www.3blue1brown.com/",
+      "description": "",
+      "addedAt": "2026-03-31T09:05:52.173Z"
     }
   ],
   "工作": [
@@ -830,11 +837,11 @@
       "url": "https://elevenlabs.io/app/home"
     },
     {
+      "addedAt": "2026-03-31T01:20:08.469Z",
+      "description": "",
       "id": "mndxjnklxdw86zpsua",
       "title": "sherlock-project/sherlock：通过社交网络上的用户名查找社交媒体帐户",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "description": "",
-      "addedAt": "2026-03-31T01:20:08.469Z"
+      "url": "https://github.com/sherlock-project/sherlock"
     }
   ],
   "开发": [
