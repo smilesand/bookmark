@@ -288,11 +288,11 @@
       "url": "https://github.com/666ghj/MiroFish?tab=readme-ov-file"
     },
     {
+      "addedAt": "2026-04-01T06:05:04.868Z",
+      "description": "大型模型无法在智能手机上安装，数据中心也无法承载。Prism ML正在构建超高密度智能，以解决这两个问题。",
       "id": "mnfn5xwk9310hrmk0cu",
       "title": "PrismML——集中智能",
-      "url": "https://prismml.com/",
-      "description": "大型模型无法在智能手机上安装，数据中心也无法承载。Prism ML正在构建超高密度智能，以解决这两个问题。",
-      "addedAt": "2026-04-01T06:05:04.868Z"
+      "url": "https://prismml.com/"
     }
   ],
   "UI": [
@@ -1397,6 +1397,15 @@
       "id": "mkkwwqyx61kgrwhfwvl",
       "title": "nautechsystems/nautilus_trader：高性能算法交易平台和事件驱动型回测器",
       "url": "https://github.com/nautechsystems/nautilus_trader"
+    }
+  ],
+  "Follow": [
+    {
+      "id": "mnfnikl0o6ghd344kq8",
+      "title": "斯科特·劳森",
+      "url": "https://scottlawsonbc.com/about",
+      "description": "我是斯科特·劳森，一名居住在加拿大不列颠哥伦比亚省温哥华的软件和机器人工程师。我负责开发涉及软件、电子、光学和机械系统的产品，通常是同时进行。\n\n我的职业生涯主要专注于机器人和计算机视觉领域。目前我在Apera AI从事视觉引导机器人方面的工作。此前，我曾在AbCellera公司为机器人显微镜构建视觉系统，并为高通量细胞筛选构建数据管道；在Zaber Technologies公司设计电机并编写精密运动系统的固件；还在Parsable公司构建云基础设施。",
+      "addedAt": "2026-04-01T06:14:54.132Z"
     }
   ]
 }
