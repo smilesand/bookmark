@@ -462,11 +462,18 @@
       "url": "https://web.mit.edu/18.06/www/"
     },
     {
+      "addedAt": "2026-03-31T09:05:52.173Z",
+      "description": "",
       "id": "mnee6l2lk98at3cv64g",
       "title": "3Blue1Brown - 3Blue1Brown",
-      "url": "https://www.3blue1brown.com/",
+      "url": "https://www.3blue1brown.com/"
+    },
+    {
+      "id": "mnfdal00jiw0d61niki",
+      "title": "使用 Python 进行机器学习 | freeCodeCamp.org",
+      "url": "https://www.freecodecamp.org/learn/machine-learning-with-python/",
       "description": "",
-      "addedAt": "2026-03-31T09:05:52.173Z"
+      "addedAt": "2026-04-01T01:28:45.264Z"
     }
   ],
   "工作": [
