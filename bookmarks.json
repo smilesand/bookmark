@@ -506,11 +506,11 @@
       "url": "https://jupyter.org/"
     },
     {
+      "addedAt": "2026-04-02T06:08:04.354Z",
+      "description": "",
       "id": "mnh2pn2acunejlok1op",
       "title": "d2l-ai/d2l-zh: 《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
-      "url": "https://github.com/d2l-ai/d2l-zh",
-      "description": "",
-      "addedAt": "2026-04-02T06:08:04.354Z"
+      "url": "https://github.com/d2l-ai/d2l-zh"
     }
   ],
   "工作": [
@@ -1154,6 +1154,13 @@
       "id": "mn7adghvlltugna8b7",
       "title": "ntfy.sh | 通过 PUT/POST 向您的手机发送推送通知",
       "url": "https://ntfy.sh/"
+    },
+    {
+      "id": "mnh3jk3nhku3uuefcl",
+      "title": "IPFS: Building blocks for a better web | IPFS",
+      "url": "https://ipfs.tech/",
+      "description": "IPFS 的多功能性在各个行业都得到了充分体现——使其成为去中心化时代的多用途工具。",
+      "addedAt": "2026-04-02T06:31:20.195Z"
     }
   ],
   "数据": [
