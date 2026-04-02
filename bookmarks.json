@@ -499,11 +499,18 @@
       "url": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
     },
     {
+      "addedAt": "2026-04-02T05:31:50.574Z",
+      "description": "JupyterLab 是最新的基于 Web 的交互式开发环境，适用于笔记本、代码和数据。其灵活的界面使用户能够配置和安排数据科学、科学计算、计算新闻和机器学习等领域的工作流程。模块化设计支持扩展，从而增强和丰富其功能。",
       "id": "mnh1f1ribpwdiojq0mr",
       "title": "Project Jupyter | 主页",
-      "url": "https://jupyter.org/",
-      "description": "JupyterLab 是最新的基于 Web 的交互式开发环境，适用于笔记本、代码和数据。其灵活的界面使用户能够配置和安排数据科学、科学计算、计算新闻和机器学习等领域的工作流程。模块化设计支持扩展，从而增强和丰富其功能。",
-      "addedAt": "2026-04-02T05:31:50.574Z"
+      "url": "https://jupyter.org/"
+    },
+    {
+      "id": "mnh2pn2acunejlok1op",
+      "title": "d2l-ai/d2l-zh: 《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
+      "url": "https://github.com/d2l-ai/d2l-zh",
+      "description": "",
+      "addedAt": "2026-04-02T06:08:04.354Z"
     }
   ],
   "工作": [
