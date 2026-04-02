@@ -304,11 +304,11 @@
       "url": "https://scottlawsonbc.com/about"
     },
     {
+      "addedAt": "2026-04-01T08:00:12.954Z",
+      "description": "",
       "id": "mnfra07u674rztl45lk",
       "title": "马同学 - 知乎",
-      "url": "https://www.zhihu.com/people/matongxue",
-      "description": "",
-      "addedAt": "2026-04-01T08:00:12.954Z"
+      "url": "https://www.zhihu.com/people/matongxue"
     }
   ],
   "UI": [
@@ -497,6 +497,13 @@
       "id": "mnfdal00jiw0d61niki",
       "title": "使用 Python 进行机器学习 | freeCodeCamp.org",
       "url": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
+    },
+    {
+      "id": "mnh1f1ribpwdiojq0mr",
+      "title": "Project Jupyter | 主页",
+      "url": "https://jupyter.org/",
+      "description": "JupyterLab 是最新的基于 Web 的交互式开发环境，适用于笔记本、代码和数据。其灵活的界面使用户能够配置和安排数据科学、科学计算、计算新闻和机器学习等领域的工作流程。模块化设计支持扩展，从而增强和丰富其功能。",
+      "addedAt": "2026-04-02T05:31:50.574Z"
     }
   ],
   "工作": [
