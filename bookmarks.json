@@ -518,6 +518,13 @@
       "id": "mnh7hz7wg2w682cwh",
       "title": "DeepLearning.AI - Learning Platform",
       "url": "https://learn.deeplearning.ai/"
+    },
+    {
+      "id": "mnipl0tvmkd16ntvit",
+      "title": "Machine Learning  |  Google for Developers",
+      "url": "https://developers.google.cn/machine-learning/crash-course/?from=www.mlhub123.com&hl=zh-cn",
+      "description": "Google 快速实用的机器学习入门课程，包含一系列动画视频、交互式可视化内容和实践练习。",
+      "addedAt": "2026-04-03T09:36:06.259Z"
     }
   ],
   "工作": [
@@ -1177,11 +1184,11 @@
       "url": "https://ipfs.tech/"
     },
     {
+      "addedAt": "2026-04-03T06:32:39.494Z",
+      "description": "该协议是无所有权的，中继也不是。\nNostr 不认同“言论自由”的政治理念——它只是承认不同的人有不同的道德观和偏好，每个服务器都是私有的，可以按照自己的标准随意拒绝内容，用户可以自由选择阅读什么内容以及从哪里阅读。",
       "id": "mnij13yegalccw4b6h",
       "title": "Nostr - 通过中继传输的笔记和其他信息",
-      "url": "https://nostr.com/",
-      "description": "该协议是无所有权的，中继也不是。\nNostr 不认同“言论自由”的政治理念——它只是承认不同的人有不同的道德观和偏好，每个服务器都是私有的，可以按照自己的标准随意拒绝内容，用户可以自由选择阅读什么内容以及从哪里阅读。",
-      "addedAt": "2026-04-03T06:32:39.494Z"
+      "url": "https://nostr.com/"
     }
   ],
   "数据": [
