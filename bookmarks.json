@@ -513,11 +513,11 @@
       "url": "https://github.com/d2l-ai/d2l-zh"
     },
     {
+      "addedAt": "2026-04-02T08:22:04.940Z",
+      "description": "",
       "id": "mnh7hz7wg2w682cwh",
       "title": "DeepLearning.AI - Learning Platform",
-      "url": "https://learn.deeplearning.ai/",
-      "description": "",
-      "addedAt": "2026-04-02T08:22:04.940Z"
+      "url": "https://learn.deeplearning.ai/"
     }
   ],
   "工作": [
@@ -893,6 +893,13 @@
       "id": "mndxjnklxdw86zpsua",
       "title": "sherlock-project/sherlock：通过社交网络上的用户名查找社交媒体帐户",
       "url": "https://github.com/sherlock-project/sherlock"
+    },
+    {
+      "id": "mnigdglh19thd5krdq1",
+      "title": "Apache Airflow",
+      "url": "https://airflow.apache.org/",
+      "description": "Apache Airflow® 是一个由社区创建的平台，用于以编程方式编写、安排和监控工作流。",
+      "addedAt": "2026-04-03T05:18:16.901Z"
     }
   ],
   "开发": [
