@@ -895,11 +895,11 @@
       "url": "https://github.com/sherlock-project/sherlock"
     },
     {
+      "addedAt": "2026-04-03T05:18:16.901Z",
+      "description": "Apache Airflow® 是一个由社区创建的平台，用于以编程方式编写、安排和监控工作流。",
       "id": "mnigdglh19thd5krdq1",
       "title": "Apache Airflow",
-      "url": "https://airflow.apache.org/",
-      "description": "Apache Airflow® 是一个由社区创建的平台，用于以编程方式编写、安排和监控工作流。",
-      "addedAt": "2026-04-03T05:18:16.901Z"
+      "url": "https://airflow.apache.org/"
     }
   ],
   "开发": [
@@ -1175,6 +1175,13 @@
       "id": "mnh3jk3nhku3uuefcl",
       "title": "IPFS: Building blocks for a better web | IPFS",
       "url": "https://ipfs.tech/"
+    },
+    {
+      "id": "mnij13yegalccw4b6h",
+      "title": "Nostr - 通过中继传输的笔记和其他信息",
+      "url": "https://nostr.com/",
+      "description": "该协议是无所有权的，中继也不是。\nNostr 不认同“言论自由”的政治理念——它只是承认不同的人有不同的道德观和偏好，每个服务器都是私有的，可以按照自己的标准随意拒绝内容，用户可以自由选择阅读什么内容以及从哪里阅读。",
+      "addedAt": "2026-04-03T06:32:39.494Z"
     }
   ],
   "数据": [
