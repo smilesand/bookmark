@@ -309,6 +309,13 @@
       "id": "mnfra07u674rztl45lk",
       "title": "马同学 - 知乎",
       "url": "https://www.zhihu.com/people/matongxue"
+    },
+    {
+      "id": "mnolgy4gts6tu76hkka",
+      "title": "Michael Nielsen",
+      "url": "https://michaelnielsen.org/",
+      "description": "",
+      "addedAt": "2026-04-07T12:27:34.720Z"
     }
   ],
   "UI": [
@@ -520,11 +527,11 @@
       "url": "https://learn.deeplearning.ai/"
     },
     {
+      "addedAt": "2026-04-03T09:36:06.259Z",
+      "description": "Google 快速实用的机器学习入门课程，包含一系列动画视频、交互式可视化内容和实践练习。",
       "id": "mnipl0tvmkd16ntvit",
       "title": "Machine Learning  |  Google for Developers",
-      "url": "https://developers.google.cn/machine-learning/crash-course/?from=www.mlhub123.com&hl=zh-cn",
-      "description": "Google 快速实用的机器学习入门课程，包含一系列动画视频、交互式可视化内容和实践练习。",
-      "addedAt": "2026-04-03T09:36:06.259Z"
+      "url": "https://developers.google.cn/machine-learning/crash-course/?from=www.mlhub123.com&hl=zh-cn"
     }
   ],
   "工作": [
