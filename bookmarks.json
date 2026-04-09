@@ -916,11 +916,11 @@
       "url": "https://airflow.apache.org/"
     },
     {
+      "addedAt": "2026-04-09T02:45:28.277Z",
+      "description": "",
       "id": "mnqvk21hta7uporatk",
       "title": "yzfly/douyin-mcp-server: 提取抖音无水印视频链接，视频文案，douyin-mcp-server，mcp，claude skill，支持龙虾",
-      "url": "https://github.com/yzfly/douyin-mcp-server/tree/main",
-      "description": "",
-      "addedAt": "2026-04-09T02:45:28.277Z"
+      "url": "https://github.com/yzfly/douyin-mcp-server/tree/main"
     }
   ],
   "开发": [
@@ -1444,6 +1444,13 @@
       "id": "mmijmik6cd0cmib9zj5",
       "title": "tropes.md - 比喻",
       "url": "https://tropes.fyi/tropes-md"
+    },
+    {
+      "id": "mnr45jpx19ndbs47nxh",
+      "title": "arXiv.org e-Print archive",
+      "url": "https://arxiv.org/",
+      "description": "",
+      "addedAt": "2026-04-09T06:46:07.893Z"
     }
   ],
   "量化": [
