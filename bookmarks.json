@@ -1453,11 +1453,18 @@
       "url": "https://arxiv.org/"
     },
     {
+      "addedAt": "2026-04-09T06:49:15.715Z",
+      "description": "",
       "id": "mnr49kn7l5iclpvt1p8",
       "title": "PMC首页",
-      "url": "https://pmc.ncbi.nlm.nih.gov/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "mnr4a9n6uk8g08q1yyf",
+      "title": "socolar",
+      "url": "https://www.socolar.com/",
       "description": "",
-      "addedAt": "2026-04-09T06:49:15.715Z"
+      "addedAt": "2026-04-09T06:49:48.114Z"
     }
   ],
   "量化": [
