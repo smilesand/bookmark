@@ -1446,11 +1446,18 @@
       "url": "https://tropes.fyi/tropes-md"
     },
     {
+      "addedAt": "2026-04-09T06:46:07.893Z",
+      "description": "",
       "id": "mnr45jpx19ndbs47nxh",
       "title": "arXiv.org e-Print archive",
-      "url": "https://arxiv.org/",
+      "url": "https://arxiv.org/"
+    },
+    {
+      "id": "mnr49kn7l5iclpvt1p8",
+      "title": "PMC首页",
+      "url": "https://pmc.ncbi.nlm.nih.gov/",
       "description": "",
-      "addedAt": "2026-04-09T06:46:07.893Z"
+      "addedAt": "2026-04-09T06:49:15.715Z"
     }
   ],
   "量化": [
