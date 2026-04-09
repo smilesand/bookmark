@@ -311,11 +311,11 @@
       "url": "https://www.zhihu.com/people/matongxue"
     },
     {
+      "addedAt": "2026-04-07T12:27:34.720Z",
+      "description": "",
       "id": "mnolgy4gts6tu76hkka",
       "title": "Michael Nielsen",
-      "url": "https://michaelnielsen.org/",
-      "description": "",
-      "addedAt": "2026-04-07T12:27:34.720Z"
+      "url": "https://michaelnielsen.org/"
     }
   ],
   "UI": [
@@ -914,6 +914,13 @@
       "id": "mnigdglh19thd5krdq1",
       "title": "Apache Airflow",
       "url": "https://airflow.apache.org/"
+    },
+    {
+      "id": "mnqvk21hta7uporatk",
+      "title": "yzfly/douyin-mcp-server: 提取抖音无水印视频链接，视频文案，douyin-mcp-server，mcp，claude skill，支持龙虾",
+      "url": "https://github.com/yzfly/douyin-mcp-server/tree/main",
+      "description": "",
+      "addedAt": "2026-04-09T02:45:28.277Z"
     }
   ],
   "开发": [
