@@ -548,11 +548,11 @@
       "url": "https://developers.google.cn/machine-learning/crash-course/?from=www.mlhub123.com&hl=zh-cn"
     },
     {
+      "addedAt": "2026-04-17T08:08:14.059Z",
+      "description": "",
       "id": "mo2mly3v3f5j78jn1mo",
       "title": "最好的AI导航站和AI工具列表 - Toolify",
-      "url": "https://www.toolify.ai/zh/",
-      "description": "",
-      "addedAt": "2026-04-17T08:08:14.059Z"
+      "url": "https://www.toolify.ai/zh/"
     }
   ],
   "工作": [
@@ -1277,6 +1277,13 @@
       "id": "mmikti84prn62b1a0wg",
       "title": "📰 Hacker News 日报",
       "url": "https://news.midoumao.com/"
+    },
+    {
+      "id": "mo6lk52vrjv4n9yzfro",
+      "title": "V2EX",
+      "url": "https://www.v2ex.com/",
+      "description": "",
+      "addedAt": "2026-04-20T02:49:54.871Z"
     }
   ],
   "游戏": [
