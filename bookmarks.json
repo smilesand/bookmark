@@ -944,11 +944,11 @@
       "url": "https://github.com/yzfly/douyin-mcp-server/tree/main"
     },
     {
+      "addedAt": "2026-04-21T00:58:57.271Z",
+      "description": "",
       "id": "mo7x1apj7m2b08qvcq5",
       "title": "Soapbox——一款面向自由互联网的软件",
-      "url": "https://soapbox.pub/",
-      "description": "",
-      "addedAt": "2026-04-21T00:58:57.271Z"
+      "url": "https://soapbox.pub/"
     }
   ],
   "开发": [
@@ -1530,6 +1530,13 @@
       "id": "mn7hclbnpevmqb1vzmn",
       "title": "首页 - JoinQuant",
       "url": "https://www.joinquant.com/view/user/floor?type=mainFloor"
+    },
+    {
+      "id": "mo8c525759vfawjh9wm",
+      "title": "搜狐股票",
+      "url": "https://stock.sohu.com/",
+      "description": "",
+      "addedAt": "2026-04-21T08:01:47.035Z"
     }
   ],
   "金融": [
