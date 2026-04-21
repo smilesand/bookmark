@@ -942,6 +942,13 @@
       "id": "mnqvk21hta7uporatk",
       "title": "yzfly/douyin-mcp-server: 提取抖音无水印视频链接，视频文案，douyin-mcp-server，mcp，claude skill，支持龙虾",
       "url": "https://github.com/yzfly/douyin-mcp-server/tree/main"
+    },
+    {
+      "id": "mo7x1apj7m2b08qvcq5",
+      "title": "Soapbox——一款面向自由互联网的软件",
+      "url": "https://soapbox.pub/",
+      "description": "",
+      "addedAt": "2026-04-21T00:58:57.271Z"
     }
   ],
   "开发": [
@@ -1286,11 +1293,11 @@
       "url": "https://www.v2ex.com/"
     },
     {
+      "addedAt": "2026-04-20T02:57:59.165Z",
+      "description": "",
       "id": "mo6luirh4kwtkr3oz2v",
       "title": "(8) LINUX DO - 新的理想型社区",
-      "url": "https://linux.do/",
-      "description": "",
-      "addedAt": "2026-04-20T02:57:59.165Z"
+      "url": "https://linux.do/"
     }
   ],
   "游戏": [
