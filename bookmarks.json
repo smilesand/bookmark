@@ -951,11 +951,18 @@
       "url": "https://soapbox.pub/"
     },
     {
+      "addedAt": "2026-04-21T09:23:13.325Z",
+      "description": "",
       "id": "mo8f1sfhik5tz4hedxd",
       "title": "QuoDB | 电影语录数据库",
-      "url": "https://www.quodb.com/",
-      "description": "",
-      "addedAt": "2026-04-21T09:23:13.325Z"
+      "url": "https://www.quodb.com/"
+    },
+    {
+      "id": "mo8f2d8mj0m3ojz5ui",
+      "title": "PlayPhrase.me: Site for cinema archaeologists.",
+      "url": "https://www.playphrase.me/#/search?language=en",
+      "description": "搜索电影字幕，展示视频",
+      "addedAt": "2026-04-21T09:23:40.294Z"
     }
   ],
   "开发": [
