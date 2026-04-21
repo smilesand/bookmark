@@ -949,6 +949,13 @@
       "id": "mo7x1apj7m2b08qvcq5",
       "title": "Soapbox——一款面向自由互联网的软件",
       "url": "https://soapbox.pub/"
+    },
+    {
+      "id": "mo8f1sfhik5tz4hedxd",
+      "title": "QuoDB | 电影语录数据库",
+      "url": "https://www.quodb.com/",
+      "description": "",
+      "addedAt": "2026-04-21T09:23:13.325Z"
     }
   ],
   "开发": [
@@ -1532,11 +1539,11 @@
       "url": "https://www.joinquant.com/view/user/floor?type=mainFloor"
     },
     {
+      "addedAt": "2026-04-21T08:01:47.035Z",
+      "description": "",
       "id": "mo8c525759vfawjh9wm",
       "title": "搜狐股票",
-      "url": "https://stock.sohu.com/",
-      "description": "",
-      "addedAt": "2026-04-21T08:01:47.035Z"
+      "url": "https://stock.sohu.com/"
     }
   ],
   "金融": [
