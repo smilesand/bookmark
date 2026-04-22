@@ -330,6 +330,13 @@
       "id": "mnolgy4gts6tu76hkka",
       "title": "Michael Nielsen",
       "url": "https://michaelnielsen.org/"
+    },
+    {
+      "id": "mo9m1bk039fm2nhwm1",
+      "title": "顶级代理框架：LangChain vs LlamaIndex vs AutoGen vs CrewAI",
+      "url": "https://www.techaheadcorp.com/blog/top-agent-frameworks/",
+      "description": "",
+      "addedAt": "2026-04-22T05:26:34.944Z"
     }
   ],
   "UI": [
@@ -958,11 +965,11 @@
       "url": "https://www.quodb.com/"
     },
     {
+      "addedAt": "2026-04-21T09:23:40.294Z",
+      "description": "搜索电影字幕，展示视频",
       "id": "mo8f2d8mj0m3ojz5ui",
       "title": "PlayPhrase.me: Site for cinema archaeologists.",
-      "url": "https://www.playphrase.me/#/search?language=en",
-      "description": "搜索电影字幕，展示视频",
-      "addedAt": "2026-04-21T09:23:40.294Z"
+      "url": "https://www.playphrase.me/#/search?language=en"
     }
   ],
   "开发": [
