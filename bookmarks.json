@@ -332,11 +332,11 @@
       "url": "https://michaelnielsen.org/"
     },
     {
+      "addedAt": "2026-04-22T05:26:34.944Z",
+      "description": "",
       "id": "mo9m1bk039fm2nhwm1",
       "title": "顶级代理框架：LangChain vs LlamaIndex vs AutoGen vs CrewAI",
-      "url": "https://www.techaheadcorp.com/blog/top-agent-frameworks/",
-      "description": "",
-      "addedAt": "2026-04-22T05:26:34.944Z"
+      "url": "https://www.techaheadcorp.com/blog/top-agent-frameworks/"
     }
   ],
   "UI": [
@@ -1574,6 +1574,13 @@
       "id": "mkkwwqyx61kgrwhfwvl",
       "title": "nautechsystems/nautilus_trader：高性能算法交易平台和事件驱动型回测器",
       "url": "https://github.com/nautechsystems/nautilus_trader"
+    },
+    {
+      "id": "mocwu9tca4lalsstd8r",
+      "title": "Polymarket | 全球最大预测市场",
+      "url": "https://polymarket.com/zh",
+      "description": "",
+      "addedAt": "2026-04-24T12:52:20.400Z"
     }
   ]
 }
