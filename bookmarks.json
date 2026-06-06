@@ -560,6 +560,13 @@
       "id": "mo2mly3v3f5j78jn1mo",
       "title": "最好的AI导航站和AI工具列表 - Toolify",
       "url": "https://www.toolify.ai/zh/"
+    },
+    {
+      "id": "mq2ej5682uwoh8ud54n",
+      "title": "Spring Cloud Alibaba 参考文档",
+      "url": "https://spring-cloud-alibaba-group.github.io/github-pages/hoxton/zh-cn/index.html#_%E4%BE%9D%E8%B5%96%E7%AE%A1%E7%90%86",
+      "description": "",
+      "addedAt": "2026-06-06T13:41:30.992Z"
     }
   ],
   "工作": [
@@ -972,11 +979,11 @@
       "url": "https://www.playphrase.me/#/search?language=en"
     },
     {
+      "addedAt": "2026-05-07T07:45:02.988Z",
+      "description": "",
       "id": "mov6l630ys2lo4o0c6",
       "title": "Apifox - API 文档、调试、Mock、测试一体化协作平台。拥有接口文档管理、接口调试、Mock、自动化测试等功能，接口开发、测试、联调效率，提升 10 倍。最好用的接口文档管理工具，接口自动化测试工具。",
-      "url": "https://apifox.com/",
-      "description": "",
-      "addedAt": "2026-05-07T07:45:02.988Z"
+      "url": "https://apifox.com/"
     }
   ],
   "开发": [
