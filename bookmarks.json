@@ -562,11 +562,18 @@
       "url": "https://www.toolify.ai/zh/"
     },
     {
+      "addedAt": "2026-06-06T13:41:30.992Z",
+      "description": "",
       "id": "mq2ej5682uwoh8ud54n",
       "title": "Spring Cloud Alibaba 参考文档",
-      "url": "https://spring-cloud-alibaba-group.github.io/github-pages/hoxton/zh-cn/index.html#_%E4%BE%9D%E8%B5%96%E7%AE%A1%E7%90%86",
+      "url": "https://spring-cloud-alibaba-group.github.io/github-pages/hoxton/zh-cn/index.html#_%E4%BE%9D%E8%B5%96%E7%AE%A1%E7%90%86"
+    },
+    {
+      "id": "mq2ergzi8pl900vjm5s",
+      "title": "版本发布说明-阿里云Spring Cloud Alibaba官网",
+      "url": "https://sca.aliyun.com/docs/2025.x/overview/version-explain/?spm=5176.29160081.0.0.74805c725uDwRn",
       "description": "",
-      "addedAt": "2026-06-06T13:41:30.992Z"
+      "addedAt": "2026-06-06T13:47:59.550Z"
     }
   ],
   "工作": [
