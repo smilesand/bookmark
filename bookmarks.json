@@ -576,11 +576,11 @@
       "url": "https://sca.aliyun.com/docs/2025.x/overview/version-explain/?spm=5176.29160081.0.0.74805c725uDwRn"
     },
     {
+      "addedAt": "2026-06-07T15:54:30.881Z",
+      "description": "",
       "id": "mq3yq15tx48hlg4qahi",
       "title": "尚硅谷SpringCloud教程，springcloud从入门到大牛_哔哩哔哩_bilibili",
-      "url": "https://www.bilibili.com/video/BV1UJc2ezEFU/?vd_source=24e347da7c1649446fae581882880877",
-      "description": "",
-      "addedAt": "2026-06-07T15:54:30.881Z"
+      "url": "https://www.bilibili.com/video/BV1UJc2ezEFU/?vd_source=24e347da7c1649446fae581882880877"
     }
   ],
   "工作": [
@@ -998,6 +998,13 @@
       "id": "mov6l630ys2lo4o0c6",
       "title": "Apifox - API 文档、调试、Mock、测试一体化协作平台。拥有接口文档管理、接口调试、Mock、自动化测试等功能，接口开发、测试、联调效率，提升 10 倍。最好用的接口文档管理工具，接口自动化测试工具。",
       "url": "https://apifox.com/"
+    },
+    {
+      "id": "mq9fddp5aa9xrnnd6e",
+      "title": "mmmlllnnn/ResumeCollection: 求职/升学/程序员找工作简历模板大全，全网最全的简历模板收集 | Free collection of resume templates for job/education |中文简历|英文简历|程序员简历模板|简历大全|简历模板|工作简历|简历封面",
+      "url": "https://github.com/mmmlllnnn/ResumeCollection",
+      "description": "",
+      "addedAt": "2026-06-11T11:39:24.953Z"
     }
   ],
   "开发": [
