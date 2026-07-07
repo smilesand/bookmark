@@ -1287,6 +1287,13 @@
       "id": "mnij13yegalccw4b6h",
       "title": "Nostr - 通过中继传输的笔记和其他信息",
       "url": "https://nostr.com/"
+    },
+    {
+      "id": "mra1yhsaq6y02l11b3q",
+      "title": "在 VS Code 中使用自定义指令",
+      "url": "https://code.visualstudio.com/docs/agent-customization/custom-instructions",
+      "description": "",
+      "addedAt": "2026-07-07T02:51:23.914Z"
     }
   ],
   "数据": [
@@ -1505,11 +1512,11 @@
       "url": "https://github.com/axmolengine/axmol"
     },
     {
+      "addedAt": "2026-06-27T04:20:42.572Z",
+      "description": "POE数据库",
       "id": "mqvuqtvwfa2zok4m8ah",
       "title": "repoe-fork.github.io",
-      "url": "https://repoe-fork.github.io/",
-      "description": "POE数据库",
-      "addedAt": "2026-06-27T04:20:42.572Z"
+      "url": "https://repoe-fork.github.io/"
     }
   ],
   "玩具": [
